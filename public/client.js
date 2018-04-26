@@ -26,15 +26,51 @@ $(document).ready(function () {
     function installForLinux() {
         $.post('http://localhost:8080/checkDocker', {code: 1}, function (data) {
             if (data.code == 1) {
-                next("Docker is installed", "Installing CORASON...");
+                next("Docker is installed", "Checking if CORASON is installed");
+                isCorasonInstalled(1);
             }
             if (data.code == 2) {
                 next("Docker is not installed <br> Docker will be installed", "Installing Docker");
             }
-            if (data.code == 4) {
-                stop(data.error);
+            if (data.code == 3) {
+                next("Docker is not installed, so it will be installed", "Installing Docker");
+                $.get('http://localhost:8080/aptinstall', function (data) {
+                    if (data.code == 1) {
+                        next("Docker has been installed", "Checking if  CORASON is installed");
+                        isCorasonInstalled(1);
+                    }
+                });
+            }
+            if (data.code == 4) {   
+                stop(data.error, "An error occured while checking if Docker is installed");
             }
         });
+    }
+
+    function isCorasonInstalled(OS) {
+        // os=1 => Linux
+        if (OS ===1) {
+            $.post('http://localhost:8080/imageLookup', {code :1}, function(data) {
+                if (data.code == 0) {
+                    next('CORASON is not installed', 'Installing CORASON (this might take a while)');
+                    $.post('http://localhost:8080/installCORASON', {code: 1}, function(data) {
+                        if (data.code == 0) {
+                            stop("An error occcured during CORASON's installation", data.se);
+                        }
+                        else if (data.code == 1) {
+                            next("CORASON installed succesfully", "Redirecting you to CORASON's UI");
+                            window.location.replace("http://localhost:8080/corason");
+                        }
+                    });
+                }
+                else if (data.code == 1) {
+                    next("CORASON is installed", "Redirecting you to CORASON's UI");
+                    window.location.replace("http://localhost:8080/corason");
+
+                }
+            });
+            // var checkImages= bash()
+        }
     }
 
 

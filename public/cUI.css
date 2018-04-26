@@ -1,0 +1,195 @@
+    
+            /* You can add global styles to this file, and also import other style files */
+            @import url('https://fonts.googleapis.com/css?family=Nova+Round|Monoton|Sonsie+One');/* font-family: 'Sonsie One', cursive;
+            font-family: 'Monofett', cursive; */
+            @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+            @import url('https://fonts.googleapis.com/css?family=Roboto');
+            *, html {
+                padding: 0;
+                margin: 0;
+            }
+            #root {
+                width: 100vw;
+                height: 100vh;
+                background-color: #222;
+                
+            }
+            .container {
+                display: flex;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+                width: 100vw;
+                height: 100vh;
+                flex-direction: column;
+            }
+            #title {
+                text-align: center;
+                color: #AD1457;
+                font-size: 12rem;
+                font-family: 'Monoton';
+                z-index: 2;
+                background-image: linear-gradient(to left, #F48FB1 50%, rgba(0,0,0,0) 50%);
+                background-size: 200% 100%;
+                background-repeat: no-repeat;
+                background-position: bottom left;
+                /** START THE TRANSITION RULES **/
+                -webkit-transition: all 0.25s ease-in;
+                -moz-transition: all 0.25s ease-in;
+                transition: all 0.25s ease-in;
+            }
+            /* #title:hover {
+            } */
+
+            #heart {
+                color: #EC407A;
+                font-size: 60rem;
+                position: absolute;
+            }
+            #subTitle {
+                color: #880E4F;
+                font-size: 1.3rem;
+                text-align: center;
+                font-family: 'Nova Round';
+                z-index: 2;
+                color: linear-gradient(to left, #9FA8DA 50%, #880E4F 50%);
+                transition: all 0.5s ease-out;
+            }
+            #start {
+                background-color: rgba(1, 100, 100, 0.6);
+                color: #fff;
+                margin-top: 9vh;
+                z-index: 0;
+                padding: 1rem 2rem;
+                font-size: 2rem;
+                border-radius: 1rem;
+                border: 3px solid rgba(200, 200, 200, 0.7);
+                transition: all 0.5s ease-in;
+            }
+            .pc {
+                transition: all 0.5s;
+                display: none;
+                padding: 2rem;
+                font-family: 'Roboto';
+            }
+            .pc > h1 {
+                text-align: center;
+                font-size: 3rem;
+                color: #333;
+            }
+            .nc {
+                margin-top: 4vh;
+            font-size: 1.5rem;
+            }
+            .nc > p {
+                margin-left: -5vw;
+            }
+            form {
+                font-size: 1.3rem;
+                margin-top: 7vh;
+                display: flex;
+                flex-direction: column;
+                align-content: space-around;
+                align-items: center;
+                justify-content: center;
+            }
+            .fc {
+                display: flex;
+                justify-content: space-between;
+                width: 30vw;
+            }
+            /* #run {
+                background-size: 200% 100%;
+                background-repeat: no-repeat;
+                background-position: bottom left;
+                margin-top: 15vh;
+                font-size: 3rem;
+                background-color: #2962FF;
+                color: #e0e0e0;
+                border: 3px dashed #e0e0e0;
+                color: linear-gradient(to left, #e3e3e3 50%, #e0e0e0 50%);
+                border-radius: 1rem;
+                background-color: linear-gradient(to left, #304FFE 50%, #2962FF 50%);
+                padding: 1rem 2rem;
+                transition: all 0.5s ease-in;
+            }
+            #run:hover {
+                transition: all 0.5s ease-in;
+                background-position: bottom right;
+                background-color: #f00;
+
+            } */
+            #run{
+                padding: 1rem 2rem;
+                font-size: 3rem;
+                margin-top: 15vh;
+                border-radius: 1rem;
+                border: 3px dashed #aaa;
+                color:#e0e0e0;
+                background-image: linear-gradient(to right,  #2962FF 50%, #304FFE 50%);
+                background-size: 200% 100%; 
+                background-repeat: no-repeat;
+                background-position: bottom left;
+                -webkit-transition: all 0.5s ease-in;
+                -moz-transition: all 0.5s ease-in;
+                transition: all 0.5s ease-in;
+                }
+            #run:hover {
+                -webkit-transition: all 0.5s ease-in;
+                -moz-transition: all 0.5s ease-in;
+                transition: all 0.5s ease-in;
+                /** START THE FINAL STATE STYLING **/
+                background-position: bottom right;
+                /* color: #00f; */
+                border: 5px solid #777;
+                cursor: pointer;
+            }
+            #loading{
+                font-family: 'Roboto';
+                display:none;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                position: absolute;
+                width: 65vw;
+                height: 80vh;
+                border-radius: 1rem;
+                margin-top: -90vh;
+                margin-left: 20vw;
+                background-color: #111;
+                z-index: 4;
+            }
+            
+            #loading > p {
+                color: #e0e0e0;
+                font-size: 2rem;
+                margin-top: 5vh;
+            }
+            #err {
+                font-size: 1.5rem;
+                color: #D50000;
+                font-family: 'Monospace';
+            }
+            #success {
+                font-size: 1.5rem;
+                color: #00C853;
+                font-family: 'Monospace';
+            }
+            @keyframes mutate {
+                0% {color: #C51162}
+                20% {color: #651FFF}
+                40% {color: #1DE9B6}
+                60% {color: #E65100}
+                80% {color: #FFEA00}
+                100% {color: #0D47A1}
+            }
+            #lh {
+                font-size: 20rem;
+                animation: mutate 5s infinite;
+                /* color: #0f0; */
+
+            }
+
+
+        

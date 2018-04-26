@@ -1,0 +1,52 @@
+<html>
+
+    <head>
+        <title>
+            Welcome
+        </title>
+        <meta charset='utf8'>
+        <!-- <script src="corason.js"></script> -->
+     <link rel="stylesheet" href="cUI.css">
+    </head>
+    <body>
+        <div id="root">
+            <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+            <script src="cUI.js"></script>
+            <div class="container">
+                <h1 id="title">CORASON</h1>
+                <i class="fa fa-heart-o" id="heart"></i>
+                <h2 id="subTitle">CORe Analysis of Syntethic Orthologs to prioritize Natural Product-Biosynthetic Gene Clusters</h2>
+                <button id="start">START</button>
+            </div>
+        </div>
+                <div class='pc'>
+                    <h1>Three parameters and you're all set</h1>
+                    <div class='nc'>
+                        <p>For CORASON to run, you need to provide three parameters to it:</p>
+                        <ul>
+                            <li>A directory containing your .faa and .txt genomes</li>
+                            <li>A file containing all the Rast IDs of your genomes</li>
+                            <li>A query file</li>
+                        </ul>
+                    </div>
+                    <!-- <form method="POST" action="run" enctype='multipart/form-data'> -->
+                        <div class='fc'>
+                            <label for="directory">Genomes Directory</label>
+                            <input type="text" name="directory">
+                        </div>
+                        <div class='fc'>
+                            <label for="ids">Rast IDs file</label>
+                            <input type="file" name="ids">
+                        </div>
+                        <div class='fc'>
+                                 <label for="query">Query file</label>
+                                 <input type="file" name="query">                                                
+                             </div>
+                                 <button id='run'>RUN </button>                        
+        </div>
+        <div id='loading'>
+                <i class="fa fa-heart-o" id="lh"></i>
+                <p id="lt">CORASON is running, give it a while and don't close this page</p>
+        </div>
+    </body>
+</html>

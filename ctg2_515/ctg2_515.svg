@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="550" onload="Init(evt)" onmousemove=" GetTrueCoords(evt); 
+			ShowTooltip(evt, true)" onmouseout="ShowTooltip(evt, false)" width="1200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<script />
+	<polyline points="95,450 105,450 " style="stroke: rgb(250,123,23)" />
+	<polyline points="95,500 105,500 " style="stroke: rgb(250,123,23)" />
+	<polyline points="95,475 105,475 " style="stroke: rgb(250,123,23)" />
+	<polyline points="100,500 100,425 100,450 " style="stroke: rgb(250,123,23)" />
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="500">0%</text>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="450">100%</text>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="475">50%</text>
+	<text style="font-family: Arial; font-size: 5; font-style: italic" x="100" y="520">Percentage of BGCs that contains this gene family</text>
+	<polygon points="110,500 110,450 150,450 150,500 " style="fill: rgb(254,30,30); stroke: steelblue; stroke-opacity: 1; stroke-width: 2" >
+<title>100</title></polygon>
+	<polyline points="95,450 105,450 " style="stroke: rgb(250,123,23)" />
+	<polyline points="95,500 105,500 " style="stroke: rgb(250,123,23)" />
+	<polyline points="95,475 105,475 " style="stroke: rgb(250,123,23)" />
+	<polyline points="100,500 100,425 100,450 " style="stroke: rgb(250,123,23)" />
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="500">0%</text>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="450">100%</text>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="475">50%</text>
+	<text style="font-family: Arial; font-size: 5; font-style: italic" x="100" y="520">Percentage of BGCs that contains this gene family</text>
+	<polygon points="160,500 160,450 200,450 200,500 " style="fill: rgb(23,210,8); stroke: steelblue; stroke-opacity: 1; stroke-width: 2" >
+<title>100</title></polygon>
+	<polyline points="95,450 105,450 " style="stroke: rgb(250,123,23)" />
+	<polyline points="95,500 105,500 " style="stroke: rgb(250,123,23)" />
+	<polyline points="95,475 105,475 " style="stroke: rgb(250,123,23)" />
+	<polyline points="100,500 100,425 100,450 " style="stroke: rgb(250,123,23)" />
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="500">0%</text>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="450">100%</text>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="475">50%</text>
+	<text style="font-family: Arial; font-size: 5; font-style: italic" x="100" y="520">Percentage of BGCs that contains this gene family</text>
+	<polygon points="210,500 210,450 250,450 250,500 " style="fill: rgb(22,139,119); stroke: steelblue; stroke-opacity: 1; stroke-width: 2" >
+<title>100</title></polygon>
+	<polyline points="95,450 105,450 " style="stroke: rgb(250,123,23)" />
+	<polyline points="95,500 105,500 " style="stroke: rgb(250,123,23)" />
+	<polyline points="95,475 105,475 " style="stroke: rgb(250,123,23)" />
+	<polyline points="100,500 100,425 100,450 " style="stroke: rgb(250,123,23)" />
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="500">0%</text>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="450">100%</text>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="475">50%</text>
+	<text style="font-family: Arial; font-size: 5; font-style: italic" x="100" y="520">Percentage of BGCs that contains this gene family</text>
+	<polyline points="100,21 900,21 " style="fill-opacity: 0; stroke: rgb(250,123,23); stroke-dasharray: 5,5; stroke-opacity: 0.5" />
+	<polyline points="100,61 900,61 " style="fill-opacity: 0; stroke: rgb(250,123,23); stroke-dasharray: 5,5; stroke-opacity: 0.5" />
+	<polyline points="100,101 900,101 " style="fill-opacity: 0; stroke: rgb(250,123,23); stroke-dasharray: 5,5; stroke-opacity: 0.5" />
+	<polyline points="100,141 900,141 " style="fill-opacity: 0; stroke: rgb(250,123,23); stroke-dasharray: 5,5; stroke-opacity: 0.5" />
+	<polyline points="100,181 900,181 " style="fill-opacity: 0; stroke: rgb(250,123,23); stroke-dasharray: 5,5; stroke-opacity: 0.5" />
+	<polyline points="100,221 900,221 " style="fill-opacity: 0; stroke: rgb(250,123,23); stroke-dasharray: 5,5; stroke-opacity: 0.5" />
+	<polyline points="100,261 900,261 " style="fill-opacity: 0; stroke: rgb(250,123,23); stroke-dasharray: 5,5; stroke-opacity: 0.5" />
+	<polyline points="100,301 900,301 " style="fill-opacity: 0; stroke: rgb(250,123,23); stroke-dasharray: 5,5; stroke-opacity: 0.5" />
+	<polyline points="100,341 900,341 " style="fill-opacity: 0; stroke: rgb(250,123,23); stroke-dasharray: 5,5; stroke-opacity: 0.5" />
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: middle" x="600" y="14">501926_231 Streptomyces sp. H021 LGDR01</text>
+	<polygon points="613,16 613,26 574,26 574,21 574,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:92 4177
+Direction:+ Gen Id:fig|6666666.279397.peg.226 Function Probable non ribosomal peptide synthetase protein smash:none</title></polygon>
+	<polygon points="574,16 574,26 543,26 543,21 543,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:4170 7526
+Direction:+ Gen Id:fig|6666666.279397.peg.227 Function non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="543,16 543,26 529,26 529,21 529,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:7526 8932
+Direction:+ Gen Id:fig|6666666.279397.peg.228 Function Non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="529,16 529,26 517,26 517,21 517,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:9017 10207
+Direction:+ Gen Id:fig|6666666.279397.peg.229 Function putative acyl-CoA dehydrogenase smash:none</title></polygon>
+	<polygon points="517,16 517,26 507,26 507,21 507,16 " style="fill: rgb(23,210,8); fill-opacity: 0.9785; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9785 Organism:Streptomyces sp. H021 LGDR01 Coordinates:10204 11349
+Direction:+ Gen Id:fig|6666666.279397.peg.230 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
+	<polygon points="500,16 500,26 506,26 506,21 506,16 " style="fill: rgb(254,30,30); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:12005 11424
+Direction:- Gen Id:fig|6666666.279397.peg.231 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
+	<polygon points="490,16 490,26 500,26 500,21 500,16 " style="fill: rgb(22,139,119); fill-opacity: 0.9536; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9536 Organism:Streptomyces sp. H021 LGDR01 Coordinates:13102 12032
+Direction:- Gen Id:fig|6666666.279397.peg.232 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
+	<polygon points="484,16 484,26 490,26 490,21 490,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:13788 13099
+Direction:- Gen Id:fig|6666666.279397.peg.233 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="471,16 471,26 484,26 484,21 484,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:15185 13785
+Direction:- Gen Id:fig|6666666.279397.peg.234 Function Serine hydroxymethyltransferase (EC 2.1.2.1) smash:none</title></polygon>
+	<polygon points="439,16 439,26 470,26 470,21 470,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:18530 15240
+Direction:- Gen Id:fig|6666666.279397.peg.235 Function Siderophore biosynthesis non-ribosomal peptide synthetase modules smash:none</title></polygon>
+	<polygon points="421,16 421,26 438,26 438,21 438,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:20484 18622
+Direction:- Gen Id:fig|6666666.279397.peg.236 Function regulatory protein smash:none</title></polygon>
+	<polygon points="418,16 418,26 417,26 417,21 417,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:20759 20902
+Direction:+ Gen Id:fig|6666666.279397.peg.237 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="387,16 387,26 415,26 415,21 415,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:24064 21074
+Direction:- Gen Id:fig|6666666.279397.peg.238 Function putative regulatory protein smash:none</title></polygon>
+	<polygon points="381,16 381,26 385,26 385,21 385,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:24734 24264
+Direction:- Gen Id:fig|6666666.279397.peg.239 Function Transcriptional regulator, MarR family smash:none</title></polygon>
+	<polygon points="377,16 377,26 363,26 363,21 363,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:25104 26606
+Direction:+ Gen Id:fig|6666666.279397.peg.240 Function FIG00761799: membrane protein smash:none</title></polygon>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: middle" x="600" y="54">501890_57 Streptomyces sp. NRRL F-2664 JOFX01</text>
+	<polygon points="679,56 679,66 653,66 653,61 653,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:49284 52100
+Direction:+ Gen Id:fig|6666666.279361.peg.47 Function Peptide synthetase smash:none</title></polygon>
+	<polygon points="653,56 653,66 643,66 643,61 643,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:52091 53110
+Direction:+ Gen Id:fig|6666666.279361.peg.48 Function iron aquisition yersiniabactin synthesis enzyme (Irp2) smash:none</title></polygon>
+	<polygon points="643,56 643,66 637,66 637,61 637,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:53110 53754
+Direction:+ Gen Id:fig|6666666.279361.peg.49 Function 4'-phosphopantetheinyl transferase (EC 2.7.8.-) smash:none</title></polygon>
+	<polygon points="637,56 637,66 627,66 627,61 627,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:53767 54798
+Direction:+ Gen Id:fig|6666666.279361.peg.50 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="626,56 626,66 614,66 614,61 614,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:54918 56195
+Direction:+ Gen Id:fig|6666666.279361.peg.51 Function major facilitator superfamily MFS_1 smash:none</title></polygon>
+	<polygon points="612,56 612,66 574,66 574,61 574,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:56370 60455
+Direction:+ Gen Id:fig|6666666.279361.peg.52 Function Probable non ribosomal peptide synthetase protein smash:none</title></polygon>
+	<polygon points="574,56 574,66 542,66 542,61 542,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:60448 63804
+Direction:+ Gen Id:fig|6666666.279361.peg.53 Function non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="542,56 542,66 529,66 529,61 529,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:63804 65210
+Direction:+ Gen Id:fig|6666666.279361.peg.54 Function Non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="529,56 529,66 517,66 517,61 517,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:65287 66477
+Direction:+ Gen Id:fig|6666666.279361.peg.55 Function putative acyl-CoA dehydrogenase smash:none</title></polygon>
+	<polygon points="517,56 517,66 507,66 507,61 507,56 " style="fill: rgb(23,210,8); fill-opacity: 0.9677; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9677 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:66474 67619
+Direction:+ Gen Id:fig|6666666.279361.peg.56 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
+	<polygon points="500,56 500,66 506,66 506,61 506,56 " style="fill: rgb(254,30,30); fill-opacity: 0.9741; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9741 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:68266 67685
+Direction:- Gen Id:fig|6666666.279361.peg.57 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
+	<polygon points="490,56 490,66 501,66 501,61 501,56 " style="fill: rgb(22,139,119); fill-opacity: 0.9159; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9159 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:69363 68263
+Direction:- Gen Id:fig|6666666.279361.peg.58 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
+	<polygon points="484,56 484,66 490,66 490,61 490,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:70049 69360
+Direction:- Gen Id:fig|6666666.279361.peg.59 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="471,56 471,66 484,66 484,61 484,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:71446 70046
+Direction:- Gen Id:fig|6666666.279361.peg.60 Function Serine hydroxymethyltransferase (EC 2.1.2.1) smash:none</title></polygon>
+	<polygon points="439,56 439,66 470,66 470,61 470,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:74788 71501
+Direction:- Gen Id:fig|6666666.279361.peg.61 Function Siderophore biosynthesis non-ribosomal peptide synthetase modules smash:none</title></polygon>
+	<polygon points="421,56 421,66 438,66 438,61 438,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:76742 74880
+Direction:- Gen Id:fig|6666666.279361.peg.62 Function regulatory protein smash:none</title></polygon>
+	<polygon points="419,56 419,66 417,66 417,61 417,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:76954 77160
+Direction:+ Gen Id:fig|6666666.279361.peg.63 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="387,56 387,66 415,66 415,61 415,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:80376 77392
+Direction:- Gen Id:fig|6666666.279361.peg.64 Function putative regulatory protein smash:none</title></polygon>
+	<polygon points="380,56 380,66 385,66 385,61 385,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:81046 80576
+Direction:- Gen Id:fig|6666666.279361.peg.65 Function Transcriptional regulator, MarR family smash:none</title></polygon>
+	<polygon points="378,56 378,66 363,66 363,61 363,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:81265 82917
+Direction:+ Gen Id:fig|6666666.279361.peg.66 Function FIG00761799: membrane protein smash:none</title></polygon>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: middle" x="600" y="94">501861_5412 Streptomyces flavotricini JNXV01</text>
+	<polygon points="509,96 509,106 507,106 507,101 507,96 " style="fill: rgb(23,210,8); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces flavotricini JNXV01 Coordinates:29 310
+Direction:+ Gen Id:fig|6666666.279332.peg.5411 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="500,96 500,106 506,106 506,101 506,96 " style="fill: rgb(254,30,30); fill-opacity: 0.9741; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9741 Organism:Streptomyces flavotricini JNXV01 Coordinates:962 381
+Direction:- Gen Id:fig|6666666.279332.peg.5412 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
+	<polygon points="490,96 490,106 500,106 500,101 500,96 " style="fill: rgb(22,139,119); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces flavotricini JNXV01 Coordinates:2059 1013
+Direction:- Gen Id:fig|6666666.279332.peg.5413 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: middle" x="600" y="134">501966_1760 Streptomyces lavendulae subsp. lavendulae JOBU01</text>
+	<polygon points="340,136 340,146 362,146 362,141 362,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:309226 311520
+Direction:+ Gen Id:fig|6666666.279437.peg.1750 Function Superfamily I DNA and RNA helicases smash:none</title></polygon>
+	<polygon points="376,136 376,146 362,146 362,141 362,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:313012 311510
+Direction:- Gen Id:fig|6666666.279437.peg.1751 Function FIG00761799: membrane protein smash:none</title></polygon>
+	<polygon points="379,136 379,146 384,146 384,141 384,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:313381 313851
+Direction:+ Gen Id:fig|6666666.279437.peg.1752 Function Transcriptional regulator, MarR family smash:none</title></polygon>
+	<polygon points="386,136 386,146 414,146 414,141 414,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:314052 317042
+Direction:+ Gen Id:fig|6666666.279437.peg.1753 Function putative regulatory protein smash:none</title></polygon>
+	<polygon points="417,136 417,146 415,146 415,141 415,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:317414 317208
+Direction:- Gen Id:fig|6666666.279437.peg.1754 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="419,136 419,146 437,146 437,141 437,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:317625 319487
+Direction:+ Gen Id:fig|6666666.279437.peg.1755 Function regulatory protein smash:none</title></polygon>
+	<polygon points="438,136 438,146 469,146 469,141 469,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:319579 322866
+Direction:+ Gen Id:fig|6666666.279437.peg.1756 Function Siderophore biosynthesis non-ribosomal peptide synthetase modules smash:none</title></polygon>
+	<polygon points="469,136 469,146 482,146 482,141 482,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:322921 324321
+Direction:+ Gen Id:fig|6666666.279437.peg.1757 Function Serine hydroxymethyltransferase (EC 2.1.2.1) smash:none</title></polygon>
+	<polygon points="482,136 482,146 489,146 489,141 489,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:324318 325007
+Direction:+ Gen Id:fig|6666666.279437.peg.1758 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="489,136 489,146 499,146 499,141 499,136 " style="fill: rgb(22,139,119); fill-opacity: 0.9529; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9529 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:325004 326074
+Direction:+ Gen Id:fig|6666666.279437.peg.1759 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
+	<polygon points="500,136 500,146 504,146 504,141 504,136 " style="fill: rgb(254,30,30); fill-opacity: 0.9943; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9943 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:326155 326682
+Direction:+ Gen Id:fig|6666666.279437.peg.1760 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
+	<polygon points="516,136 516,146 505,146 505,141 505,136 " style="fill: rgb(23,210,8); fill-opacity: 0.9785; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9785 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:327903 326758
+Direction:- Gen Id:fig|6666666.279437.peg.1761 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
+	<polygon points="527,136 527,146 516,146 516,141 516,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:329090 327900
+Direction:- Gen Id:fig|6666666.279437.peg.1762 Function putative acyl-CoA dehydrogenase smash:none</title></polygon>
+	<polygon points="541,136 541,146 528,146 528,141 528,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:330576 329170
+Direction:- Gen Id:fig|6666666.279437.peg.1763 Function Non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="573,136 573,146 541,146 541,141 541,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:333932 330576
+Direction:- Gen Id:fig|6666666.279437.peg.1764 Function non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="611,136 611,146 573,146 573,141 573,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:338010 333925
+Direction:- Gen Id:fig|6666666.279437.peg.1765 Function Probable non ribosomal peptide synthetase protein smash:none</title></polygon>
+	<polygon points="625,136 625,146 613,146 613,141 613,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:339462 338185
+Direction:- Gen Id:fig|6666666.279437.peg.1766 Function major facilitator superfamily MFS_1 smash:none</title></polygon>
+	<polygon points="636,136 636,146 626,146 626,141 626,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:340613 339582
+Direction:- Gen Id:fig|6666666.279437.peg.1767 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="642,136 642,146 636,146 636,141 636,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:341270 340626
+Direction:- Gen Id:fig|6666666.279437.peg.1768 Function 4'-phosphopantetheinyl transferase (EC 2.7.8.-) smash:none</title></polygon>
+	<polygon points="679,136 679,146 642,146 642,141 642,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:345208 341270
+Direction:- Gen Id:fig|6666666.279437.peg.1769 Function iron aquisition yersiniabactin synthesis enzyme (Irp2) smash:none</title></polygon>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: middle" x="600" y="174">501888_3244 Streptomyces sp. PCS3-D2 JDUZ01</text>
+	<polygon points="692,176 692,186 681,186 681,181 681,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:61389 62603
+Direction:+ Gen Id:fig|6666666.279359.peg.3234 Function putative cytochrome P450 hydroxylase smash:none</title></polygon>
+	<polygon points="681,176 681,186 644,186 644,181 644,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:62619 66557
+Direction:+ Gen Id:fig|6666666.279359.peg.3235 Function iron aquisition yersiniabactin synthesis enzyme (Irp2) smash:none</title></polygon>
+	<polygon points="644,176 644,186 638,186 638,181 638,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:66557 67201
+Direction:+ Gen Id:fig|6666666.279359.peg.3236 Function 4'-phosphopantetheinyl transferase (EC 2.7.8.-) smash:none</title></polygon>
+	<polygon points="637,176 637,186 628,186 628,181 628,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:67214 68245
+Direction:+ Gen Id:fig|6666666.279359.peg.3237 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="627,176 627,186 615,186 615,181 615,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:68365 69642
+Direction:+ Gen Id:fig|6666666.279359.peg.3238 Function major facilitator superfamily MFS_1 smash:none</title></polygon>
+	<polygon points="613,176 613,186 574,186 574,181 574,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:69814 73905
+Direction:+ Gen Id:fig|6666666.279359.peg.3239 Function Probable non ribosomal peptide synthetase protein smash:none</title></polygon>
+	<polygon points="574,176 574,186 543,186 543,181 543,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:73898 77254
+Direction:+ Gen Id:fig|6666666.279359.peg.3240 Function Siderophore biosynthesis non-ribosomal peptide synthetase modules @ Bacillibactin synthetase component F (EC 2.7.7.-) smash:none</title></polygon>
+	<polygon points="543,176 543,186 530,186 530,181 530,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:77254 78660
+Direction:+ Gen Id:fig|6666666.279359.peg.3241 Function Non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="529,176 529,186 518,186 518,181 518,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:78741 79931
+Direction:+ Gen Id:fig|6666666.279359.peg.3242 Function putative acyl-CoA dehydrogenase smash:none</title></polygon>
+	<polygon points="518,176 518,186 507,186 507,181 507,176 " style="fill: rgb(23,210,8); fill-opacity: 0.957; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.957 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:79928 81073
+Direction:+ Gen Id:fig|6666666.279359.peg.3243 Function Butyryl-CoA dehydrogenase (EC 1.3.8.1) smash:none</title></polygon>
+	<polygon points="500,176 500,186 505,186 505,181 505,176 " style="fill: rgb(254,30,30); fill-opacity: 0.96; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.96 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:81759 81232
+Direction:- Gen Id:fig|6666666.279359.peg.3244 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
+	<polygon points="490,176 490,186 500,186 500,181 500,176 " style="fill: rgb(22,139,119); fill-opacity: 0.9217; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9217 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:82916 81810
+Direction:- Gen Id:fig|6666666.279359.peg.3245 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
+	<polygon points="483,176 483,186 490,186 490,181 490,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:83602 82913
+Direction:- Gen Id:fig|6666666.279359.peg.3246 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="470,176 470,186 483,186 483,181 483,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:84999 83599
+Direction:- Gen Id:fig|6666666.279359.peg.3247 Function Serine hydroxymethyltransferase (EC 2.1.2.1) smash:none</title></polygon>
+	<polygon points="439,176 439,186 469,186 469,181 469,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:88344 85054
+Direction:- Gen Id:fig|6666666.279359.peg.3248 Function Siderophore biosynthesis non-ribosomal peptide synthetase modules smash:none</title></polygon>
+	<polygon points="420,176 420,186 438,186 438,181 438,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:90298 88436
+Direction:- Gen Id:fig|6666666.279359.peg.3249 Function regulatory protein smash:none</title></polygon>
+	<polygon points="418,176 418,186 416,186 416,181 416,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:90512 90718
+Direction:+ Gen Id:fig|6666666.279359.peg.3250 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="386,176 386,186 415,186 415,181 415,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:93895 90851
+Direction:- Gen Id:fig|6666666.279359.peg.3251 Function FIG01124703: hypothetical protein smash:none</title></polygon>
+	<polygon points="381,176 381,186 385,186 385,181 385,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:94455 94036
+Direction:- Gen Id:fig|6666666.279359.peg.3252 Function Transcriptional regulator, MarR family smash:none</title></polygon>
+	<polygon points="377,176 377,186 363,186 363,181 363,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:94868 96379
+Direction:+ Gen Id:fig|6666666.279359.peg.3253 Function FIG00761799: membrane protein smash:none</title></polygon>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: middle" x="600" y="214">501954_3632 Salinispora pacifica CNT003 AZWE01</text>
+	<polygon points="689,216 689,226 687,226 687,221 687,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:21277 21477
+Direction:+ Gen Id:fig|6666666.279425.peg.3622 Function FIG006220: Hypothetical MbtH-like protein smash:none</title></polygon>
+	<polygon points="687,216 687,226 675,226 675,221 675,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:21488 22714
+Direction:+ Gen Id:fig|6666666.279425.peg.3623 Function putative cytochrome P450 hydroxylase smash:none</title></polygon>
+	<polygon points="675,216 675,226 638,226 638,221 638,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:22711 26655
+Direction:+ Gen Id:fig|6666666.279425.peg.3624 Function non-ribosomal peptide synthase/polyketide synthase smash:none</title></polygon>
+	<polygon points="636,216 636,226 626,226 626,221 626,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:26906 27967
+Direction:+ Gen Id:fig|6666666.279425.peg.3625 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="625,216 625,226 612,226 612,221 612,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:28058 29407
+Direction:+ Gen Id:fig|6666666.279425.peg.3626 Function major facilitator superfamily MFS_1 smash:none</title></polygon>
+	<polygon points="611,216 611,226 573,226 573,221 573,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:29525 33613
+Direction:+ Gen Id:fig|6666666.279425.peg.3627 Function Probable non ribosomal peptide synthetase protein smash:none</title></polygon>
+	<polygon points="573,216 573,226 541,226 541,221 541,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:33606 36965
+Direction:+ Gen Id:fig|6666666.279425.peg.3628 Function non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="541,216 541,226 528,226 528,221 528,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:36965 38401
+Direction:+ Gen Id:fig|6666666.279425.peg.3629 Function Non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="527,216 527,226 516,226 516,221 516,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:38420 39610
+Direction:+ Gen Id:fig|6666666.279425.peg.3630 Function Acyl-CoA dehydrogenase, long-chain specific, mitochondrial precursor (EC 1.3.99.13) smash:none</title></polygon>
+	<polygon points="516,216 516,226 506,226 506,221 506,216 " style="fill: rgb(23,210,8); fill-opacity: 0.9462; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9462 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:39625 40752
+Direction:+ Gen Id:fig|6666666.279425.peg.3631 Function Isovaleryl-CoA dehydrogenase (EC 1.3.8.4); Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
+	<polygon points="500,216 500,226 505,226 505,221 505,216 " style="fill: rgb(254,30,30); fill-opacity: 0.8591; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.8591 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:41287 40835
+Direction:- Gen Id:fig|6666666.279425.peg.3632 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
+	<polygon points="489,216 489,226 499,226 499,221 499,216 " style="fill: rgb(22,139,119); fill-opacity: 0.7706; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.7706 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:42513 41413
+Direction:- Gen Id:fig|6666666.279425.peg.3633 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
+	<polygon points="483,216 483,226 489,226 489,221 489,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:43124 42510
+Direction:- Gen Id:fig|6666666.279425.peg.3634 Function hypothetical protein smash:none</title></polygon>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: middle" x="600" y="254">501879_708 Streptomyces sp. NRRL S-237 JODA01</text>
+	<polygon points="689,256 689,266 687,266 687,261 687,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:222644 222823
+Direction:+ Gen Id:fig|6666666.279350.peg.698 Function MbtH-like protein smash:none</title></polygon>
+	<polygon points="687,256 687,266 676,266 676,261 676,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:222825 224039
+Direction:+ Gen Id:fig|6666666.279350.peg.699 Function putative cytochrome P450 hydroxylase smash:none</title></polygon>
+	<polygon points="675,256 675,266 638,266 638,261 638,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:224055 227993
+Direction:+ Gen Id:fig|6666666.279350.peg.700 Function non-ribosomal peptide synthase/polyketide synthase smash:none</title></polygon>
+	<polygon points="637,256 637,266 627,266 627,261 627,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:228164 229198
+Direction:+ Gen Id:fig|6666666.279350.peg.701 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="626,256 626,266 614,266 614,261 614,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:229318 230592
+Direction:+ Gen Id:fig|6666666.279350.peg.702 Function major facilitator superfamily MFS_1 smash:none</title></polygon>
+	<polygon points="612,256 612,266 573,266 573,261 573,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:230800 234897
+Direction:+ Gen Id:fig|6666666.279350.peg.703 Function Probable non ribosomal peptide synthetase protein smash:none</title></polygon>
+	<polygon points="573,256 573,266 542,266 542,261 542,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:234890 238246
+Direction:+ Gen Id:fig|6666666.279350.peg.704 Function Siderophore biosynthesis non-ribosomal peptide synthetase modules @ Bacillibactin synthetase component F (EC 2.7.7.-) smash:none</title></polygon>
+	<polygon points="542,256 542,266 529,266 529,261 529,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:238246 239643
+Direction:+ Gen Id:fig|6666666.279350.peg.705 Function Non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="529,256 529,266 517,266 517,261 517,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:239654 240844
+Direction:+ Gen Id:fig|6666666.279350.peg.706 Function Acyl-CoA dehydrogenase, long-chain specific, mitochondrial precursor (EC 1.3.99.13) smash:none</title></polygon>
+	<polygon points="517,256 517,266 507,266 507,261 507,256 " style="fill: rgb(23,210,8); fill-opacity: 0.9355; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9355 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:240841 241986
+Direction:+ Gen Id:fig|6666666.279350.peg.707 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
+	<polygon points="500,256 500,266 506,266 506,261 506,256 " style="fill: rgb(254,30,30); fill-opacity: 0.9275; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9275 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:242637 242056
+Direction:- Gen Id:fig|6666666.279350.peg.708 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
+	<polygon points="490,256 490,266 500,266 500,261 500,256 " style="fill: rgb(22,139,119); fill-opacity: 0.8985; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.8985 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:243734 242664
+Direction:- Gen Id:fig|6666666.279350.peg.709 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
+	<polygon points="484,256 484,266 490,266 490,261 490,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:244435 243731
+Direction:- Gen Id:fig|6666666.279350.peg.710 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="470,256 470,266 484,266 484,261 484,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:245832 244432
+Direction:- Gen Id:fig|6666666.279350.peg.711 Function Serine hydroxymethyltransferase (EC 2.1.2.1) smash:none</title></polygon>
+	<polygon points="439,256 439,266 470,266 470,261 470,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:249162 245887
+Direction:- Gen Id:fig|6666666.279350.peg.712 Function Siderophore biosynthesis non-ribosomal peptide synthetase modules smash:none</title></polygon>
+	<polygon points="421,256 421,266 438,266 438,261 438,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:251113 249254
+Direction:- Gen Id:fig|6666666.279350.peg.713 Function transcriptional regulator, SARP family smash:none</title></polygon>
+	<polygon points="419,256 419,266 417,266 417,261 417,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:251326 251547
+Direction:+ Gen Id:fig|6666666.279350.peg.714 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="387,256 387,266 416,266 416,261 416,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:254687 251655
+Direction:- Gen Id:fig|6666666.279350.peg.715 Function putative regulatory protein smash:none</title></polygon>
+	<polygon points="381,256 381,266 386,266 386,261 386,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:255319 254849
+Direction:- Gen Id:fig|6666666.279350.peg.716 Function Transcriptional regulator, MarR family smash:none</title></polygon>
+	<polygon points="377,256 377,266 363,266 363,261 363,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:255708 257195
+Direction:+ Gen Id:fig|6666666.279350.peg.717 Function FIG00761799: membrane protein smash:none</title></polygon>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: middle" x="600" y="294">501938_4339 Streptomyces virginiae LGUV01</text>
+	<polygon points="341,296 341,306 362,306 362,301 362,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:57534 59831
+Direction:+ Gen Id:fig|6666666.279409.peg.4329 Function Superfamily I DNA and RNA helicases smash:none</title></polygon>
+	<polygon points="376,296 376,306 362,306 362,301 362,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:61308 59821
+Direction:- Gen Id:fig|6666666.279409.peg.4330 Function FIG00761799: membrane protein smash:none</title></polygon>
+	<polygon points="380,296 380,306 384,306 384,301 384,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:61705 62175
+Direction:+ Gen Id:fig|6666666.279409.peg.4331 Function Transcriptional regulator, MarR family smash:none</title></polygon>
+	<polygon points="386,296 386,306 415,306 415,301 415,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:62336 65386
+Direction:+ Gen Id:fig|6666666.279409.peg.4332 Function putative regulatory protein smash:none</title></polygon>
+	<polygon points="418,296 418,306 416,306 416,301 416,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:65709 65488
+Direction:- Gen Id:fig|6666666.279409.peg.4333 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="420,296 420,306 437,306 437,301 437,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:65922 67781
+Direction:+ Gen Id:fig|6666666.279409.peg.4334 Function regulatory protein smash:none</title></polygon>
+	<polygon points="438,296 438,306 470,306 470,301 470,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:67873 71226
+Direction:+ Gen Id:fig|6666666.279409.peg.4335 Function Siderophore biosynthesis non-ribosomal peptide synthetase modules smash:none</title></polygon>
+	<polygon points="469,296 469,306 483,306 483,301 483,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:71223 72617
+Direction:+ Gen Id:fig|6666666.279409.peg.4336 Function Serine hydroxymethyltransferase (EC 2.1.2.1) smash:none</title></polygon>
+	<polygon points="483,296 483,306 489,306 489,301 489,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:72614 73318
+Direction:+ Gen Id:fig|6666666.279409.peg.4337 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="489,296 489,306 499,306 499,301 499,296 " style="fill: rgb(22,139,119); fill-opacity: 0.8808; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.8808 Organism:Streptomyces virginiae LGUV01 Coordinates:73315 74385
+Direction:+ Gen Id:fig|6666666.279409.peg.4338 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
+	<polygon points="500,296 500,306 505,306 505,301 505,296 " style="fill: rgb(254,30,30); fill-opacity: 0.9223; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9223 Organism:Streptomyces virginiae LGUV01 Coordinates:74412 74993
+Direction:+ Gen Id:fig|6666666.279409.peg.4339 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
+	<polygon points="516,296 516,306 506,306 506,301 506,296 " style="fill: rgb(23,210,8); fill-opacity: 0.9355; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9355 Organism:Streptomyces virginiae LGUV01 Coordinates:76211 75060
+Direction:- Gen Id:fig|6666666.279409.peg.4340 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
+	<polygon points="528,296 528,306 516,306 516,301 516,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:77398 76208
+Direction:- Gen Id:fig|6666666.279409.peg.4341 Function putative acyl-CoA dehydrogenase smash:none</title></polygon>
+	<polygon points="541,296 541,306 528,306 528,301 528,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:78815 77409
+Direction:- Gen Id:fig|6666666.279409.peg.4342 Function Non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="573,296 573,306 541,306 541,301 541,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:82171 78815
+Direction:- Gen Id:fig|6666666.279409.peg.4343 Function Siderophore biosynthesis non-ribosomal peptide synthetase modules smash:none</title></polygon>
+	<polygon points="582,296 582,306 572,306 572,301 572,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:83156 82164
+Direction:- Gen Id:fig|6666666.279409.peg.4344 Function thioesterase smash:none</title></polygon>
+	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: middle" x="600" y="334">501933_4070 Streptomyces yangpuensis LBMK01</text>
+	<polygon points="692,336 692,346 681,346 681,341 681,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:815981 817195
+Direction:+ Gen Id:fig|6666666.279404.peg.4060 Function putative cytochrome P450 hydroxylase smash:none</title></polygon>
+	<polygon points="681,336 681,346 644,346 644,341 644,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:817211 821149
+Direction:+ Gen Id:fig|6666666.279404.peg.4061 Function iron aquisition yersiniabactin synthesis enzyme (Irp2) smash:none</title></polygon>
+	<polygon points="644,336 644,346 638,346 638,341 638,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:821149 821793
+Direction:+ Gen Id:fig|6666666.279404.peg.4062 Function 4'-phosphopantetheinyl transferase (EC 2.7.8.-) smash:none</title></polygon>
+	<polygon points="637,336 637,346 628,346 628,341 628,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:821807 822838
+Direction:+ Gen Id:fig|6666666.279404.peg.4063 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="627,336 627,346 615,346 615,341 615,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:822958 824235
+Direction:+ Gen Id:fig|6666666.279404.peg.4064 Function major facilitator superfamily MFS_1 smash:none</title></polygon>
+	<polygon points="613,336 613,346 574,346 574,341 574,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:824430 828518
+Direction:+ Gen Id:fig|6666666.279404.peg.4065 Function Probable non ribosomal peptide synthetase protein smash:none</title></polygon>
+	<polygon points="574,336 574,346 543,346 543,341 543,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:828511 831867
+Direction:+ Gen Id:fig|6666666.279404.peg.4066 Function Siderophore biosynthesis non-ribosomal peptide synthetase modules @ Bacillibactin synthetase component F (EC 2.7.7.-) smash:none</title></polygon>
+	<polygon points="543,336 543,346 530,346 530,341 530,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:831867 833273
+Direction:+ Gen Id:fig|6666666.279404.peg.4067 Function Non-ribosomal peptide synthetase smash:none</title></polygon>
+	<polygon points="529,336 529,346 518,346 518,341 518,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:833363 834553
+Direction:+ Gen Id:fig|6666666.279404.peg.4068 Function putative acyl-CoA dehydrogenase smash:none</title></polygon>
+	<polygon points="518,336 518,346 507,346 507,341 507,336 " style="fill: rgb(23,210,8); fill-opacity: 0.9677; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9677 Organism:Streptomyces yangpuensis LBMK01 Coordinates:834550 835695
+Direction:+ Gen Id:fig|6666666.279404.peg.4069 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
+	<polygon points="500,336 500,346 506,346 506,341 506,336 " style="fill: rgb(254,30,30); fill-opacity: 0.9534; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9534 Organism:Streptomyces yangpuensis LBMK01 Coordinates:836361 835780
+Direction:- Gen Id:fig|6666666.279404.peg.4070 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
+	<polygon points="490,336 490,346 500,346 500,341 500,336 " style="fill: rgb(22,139,119); fill-opacity: 0.9449; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:0.9449 Organism:Streptomyces yangpuensis LBMK01 Coordinates:837458 836388
+Direction:- Gen Id:fig|6666666.279404.peg.4071 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
+	<polygon points="484,336 484,346 490,346 490,341 490,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:838144 837455
+Direction:- Gen Id:fig|6666666.279404.peg.4072 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="471,336 471,346 484,346 484,341 484,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:839541 838141
+Direction:- Gen Id:fig|6666666.279404.peg.4073 Function Serine hydroxymethyltransferase (EC 2.1.2.1) smash:none</title></polygon>
+	<polygon points="439,336 439,346 470,346 470,341 470,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:842886 839596
+Direction:- Gen Id:fig|6666666.279404.peg.4074 Function Siderophore biosynthesis non-ribosomal peptide synthetase modules smash:none</title></polygon>
+	<polygon points="421,336 421,346 438,346 438,341 438,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:844849 842975
+Direction:- Gen Id:fig|6666666.279404.peg.4075 Function putative regulatory protein (AfsR-like protein) smash:none</title></polygon>
+	<polygon points="419,336 419,346 417,346 417,341 417,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:845061 845267
+Direction:+ Gen Id:fig|6666666.279404.peg.4076 Function hypothetical protein smash:none</title></polygon>
+	<polygon points="386,336 386,346 415,346 415,341 415,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:848488 845468
+Direction:- Gen Id:fig|6666666.279404.peg.4077 Function putative regulatory protein smash:none</title></polygon>
+	<polygon points="381,336 381,346 385,346 385,341 385,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:849056 848652
+Direction:- Gen Id:fig|6666666.279404.peg.4078 Function Transcriptional regulator, MarR family smash:none</title></polygon>
+	<polygon points="381,336 381,346 380,346 380,341 380,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+<title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:849040 849165
+Direction:+ Gen Id:fig|6666666.279404.peg.4079 Function hypothetical protein smash:none</title></polygon>
+	<!--
+	Generated using the Perl SVG Module V2.84
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+	-->
+</svg>
