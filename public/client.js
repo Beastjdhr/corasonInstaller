@@ -24,7 +24,9 @@ $(document).ready(function () {
 
 
     function installForLinux() {
+	console.log('VERIFYING DOCKER');
         $.post('http://localhost:8080/checkDocker', {code: 1}, function (data) {
+		console.log(data)
             if (data.code == 1) {
                 next("Docker is installed", "Checking if CORASON is installed");
                 isCorasonInstalled(1);
@@ -32,7 +34,7 @@ $(document).ready(function () {
             if (data.code == 2) {
                 next("Docker is not installed <br> Docker will be installed", "Installing Docker");
             }
-            if (data.code == 3) {
+            if (data.code == 3 || data.code == 0) {
                 next("Docker is not installed, so it will be installed", "Installing Docker");
                 $.get('http://localhost:8080/aptinstall', function (data) {
                     if (data.code == 1) {

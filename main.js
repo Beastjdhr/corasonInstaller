@@ -66,17 +66,25 @@ app.post('/checkDocker', function(req, res) {
         // checking if Docker is installed on Linux
         // console.log('LINUX');
         var check= bash('dpkg -l | grep docker', function(err, so, se) {
-            if (so != undefined && so.match(/docker.io/)) {
+            if (so != undefined && (so.match(/docker.io/) || so.match(/docker-ce/) || so.match(/docker-engine/) )) {
                 var inst= bash('docker', function (err, so, se) {
-                    // console.log("SE: " + se);
-                    // console.log("SO: " + so);
-                    if (se.match(/not found/)) res.json({code: 3});
-                    else res.json({code: 1});
+                    console.log("SE: " + se);
+                    console.log("SO: " + so);
+                    if (se.match(/not found/)) {
+			console.log('NOT INSTALLED');
+			 res.json({code: 3});
+			return;
+			}
+                    else if (! se.match(/not found/)) {
+			console.log('INSTALLED');
+			res.json({code: 1});
+			return;
+			}
                 });  
             } 
-            if (so != undefined && ! so.match(/docker.io/)) res.json({code: 0});
-            if (so == undefined || so.length < 3) res.json({code : 0});
-            if (se) res.json({code: 4, error: se});
+            else if (so != undefined && (! so.match(/docker.io/) || ! so.match(/docker-ce/) || ! so.match(/docker-engine/) )) res.json({code: 0});
+            else if (so == undefined || so.length < 3) res.json({code : 0});
+            else if (se) res.json({code: 4, error: se});
         });
     }
 
@@ -88,18 +96,59 @@ app.get('/aptinstall', function(req, res) {
         var start = so.indexOf('<!<');
         sudo = so.slice(start + 3, -5);
         console.log(sudo);
-        var installCommand = 'echo ' + sudo + ' | sudo -S apt install docker.io';
+        var installCommand = 'echo ' + sudo + ' | sudo -S apt install -y docker.io';
         console.log(installCommand);
         var aptinstall = bash(installCommand, function (err, so, se) {
+		console.log(so);
+		console.log(se);
             var confirm = bash('docker', function (err, so, se) {
+		console.log('confirming Docker is ready to run...');
                 if (!se.match(/not found/)) {
-                    res.render('corason');
+		    console.log('SENDING CODE 1 TO CLIENT');
+                    res.json({code: 1});
                 }
                 // });
             });
             console.log(so, se);
         });
     });
+});
+
+app.post('aptGetInstall', function(req, res) {	
+    var getSudo = bash('grep userPassword userData.txt', function (err, so, se) {
+        // parsing user password
+        var start = so.indexOf('<!<');
+        sudo = so.slice(start + 3, -5);
+        console.log(sudo);
+	//the installation has various steps
+	var aptGetUpdate= 'echo ' + sudo + ' | sudo -S apt-get -y update';
+	var addKey= 'echo ' + sudo + ' | sudo -S apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D';
+	var addRepo= 'echo ' + sudo + " | sudo -S apt-add-repository 'deb https://apt.dockerproject.org/repo ubuntu-xenial main'";
+	var installDocker= 'echo ' + sudo + ' | sudo -S apt-get install -y docker-engine';
+
+	var update= bash(aptGetUpdate, function(err, so, se) {
+		var addKeyCommand= bash(addKey, function(err, so, se) {
+			console.log('adding key');
+			console.log(so);
+			console.log('===============');
+			console.log(se);
+			var updateAgain= bash(aptGetUpdate, function(err, so, se) {
+				var addRepoCommand= bash(addRepo, function(err, so, se) {
+					console.log('adding repo');
+					console.log(so);
+					console.log('==============');
+					console.log(se);
+					var installDockerCommand= bash(installDocker, function(req, res) {
+						console.log('installing docker');
+						console.log(so);
+						console.log('===================');
+						console.log(se);
+						});
+					});
+				});
+			});
+		});
+	});
 });
 
 app.post('/imageLookup', function(req, res) {
@@ -168,10 +217,10 @@ app.post('/run', function(req, res) {
 
 
 app.listen(8080, function () {
-    // var launch = bash('firefox 127.0.0.1:8080', function (err, stdout, stderr) {
-    //     if (err) throw err;
-    //     console.log(stdout);
-    //     console.log(stderr);
-    // });
+    var launch = bash('firefox 127.0.0.1:8080', function (err, stdout, stderr) {
+         if (err) throw err;
+         console.log(stdout);
+         console.log(stderr);
+     });
     console.log('SERVER STARTED ON PORT 8080');
 });

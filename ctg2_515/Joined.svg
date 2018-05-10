@@ -29,7 +29,7 @@
 	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="450">100%</text>
 	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="475">50%</text>
 	<text style="font-family: Arial; font-size: 5; font-style: italic" x="100" y="520">Percentage of BGCs that contains this gene family</text>
-	<polygon points="160,500 160,450 200,450 200,500 " style="fill: rgb(23,210,8); stroke: steelblue; stroke-opacity: 1; stroke-width: 2" >
+	<polygon points="160,500 160,450 200,450 200,500 " style="fill: rgb(218,244,138); stroke: steelblue; stroke-opacity: 1; stroke-width: 2" >
 <title>100</title></polygon>
 	<polyline points="95,450 105,450 " style="stroke: rgb(250,123,23)" />
 	<polyline points="95,500 105,500 " style="stroke: rgb(250,123,23)" />
@@ -39,7 +39,7 @@
 	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="450">100%</text>
 	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: start" x="50" y="475">50%</text>
 	<text style="font-family: Arial; font-size: 5; font-style: italic" x="100" y="520">Percentage of BGCs that contains this gene family</text>
-	<polygon points="210,500 210,450 250,450 250,500 " style="fill: rgb(22,139,119); stroke: steelblue; stroke-opacity: 1; stroke-width: 2" >
+	<polygon points="210,500 210,450 250,450 250,500 " style="fill: rgb(44,147,2); stroke: steelblue; stroke-opacity: 1; stroke-width: 2" >
 <title>100</title></polygon>
 	<polyline points="95,450 105,450 " style="stroke: rgb(250,123,23)" />
 	<polyline points="95,500 105,500 " style="stroke: rgb(250,123,23)" />
@@ -71,13 +71,13 @@ Direction:+ Gen Id:fig|6666666.279397.peg.228 Function Non-ribosomal peptide syn
 	<polygon points="529,16 529,26 517,26 517,21 517,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:9017 10207
 Direction:+ Gen Id:fig|6666666.279397.peg.229 Function putative acyl-CoA dehydrogenase smash:none</title></polygon>
-	<polygon points="517,16 517,26 507,26 507,21 507,16 " style="fill: rgb(23,210,8); fill-opacity: 0.9785; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="517,16 517,26 507,26 507,21 507,16 " style="fill: rgb(44,147,2); fill-opacity: 0.9785; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9785 Organism:Streptomyces sp. H021 LGDR01 Coordinates:10204 11349
 Direction:+ Gen Id:fig|6666666.279397.peg.230 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
 	<polygon points="500,16 500,26 506,26 506,21 506,16 " style="fill: rgb(254,30,30); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:1 Organism:Streptomyces sp. H021 LGDR01 Coordinates:12005 11424
 Direction:- Gen Id:fig|6666666.279397.peg.231 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
-	<polygon points="490,16 490,26 500,26 500,21 500,16 " style="fill: rgb(22,139,119); fill-opacity: 0.9536; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="490,16 490,26 500,26 500,21 500,16 " style="fill: rgb(218,244,138); fill-opacity: 0.9536; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9536 Organism:Streptomyces sp. H021 LGDR01 Coordinates:13102 12032
 Direction:- Gen Id:fig|6666666.279397.peg.232 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
 	<polygon points="484,16 484,26 490,26 490,21 490,16 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
@@ -132,13 +132,13 @@ Direction:+ Gen Id:fig|6666666.279361.peg.54 Function Non-ribosomal peptide synt
 	<polygon points="529,56 529,66 517,66 517,61 517,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:65287 66477
 Direction:+ Gen Id:fig|6666666.279361.peg.55 Function putative acyl-CoA dehydrogenase smash:none</title></polygon>
-	<polygon points="517,56 517,66 507,66 507,61 507,56 " style="fill: rgb(23,210,8); fill-opacity: 0.9677; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="517,56 517,66 507,66 507,61 507,56 " style="fill: rgb(44,147,2); fill-opacity: 0.9677; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9677 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:66474 67619
 Direction:+ Gen Id:fig|6666666.279361.peg.56 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
 	<polygon points="500,56 500,66 506,66 506,61 506,56 " style="fill: rgb(254,30,30); fill-opacity: 0.9741; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9741 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:68266 67685
 Direction:- Gen Id:fig|6666666.279361.peg.57 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
-	<polygon points="490,56 490,66 501,66 501,61 501,56 " style="fill: rgb(22,139,119); fill-opacity: 0.9159; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="490,56 490,66 501,66 501,61 501,56 " style="fill: rgb(218,244,138); fill-opacity: 0.9159; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9159 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:69363 68263
 Direction:- Gen Id:fig|6666666.279361.peg.58 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
 	<polygon points="484,56 484,66 490,66 490,61 490,56 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
@@ -166,13 +166,13 @@ Direction:- Gen Id:fig|6666666.279361.peg.65 Function Transcriptional regulator,
 <title>Identity:1 Organism:Streptomyces sp. NRRL F-2664 JOFX01 Coordinates:81265 82917
 Direction:+ Gen Id:fig|6666666.279361.peg.66 Function FIG00761799: membrane protein smash:none</title></polygon>
 	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: middle" x="600" y="94">501861_5412 Streptomyces flavotricini JNXV01</text>
-	<polygon points="509,96 509,106 507,106 507,101 507,96 " style="fill: rgb(23,210,8); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="509,96 509,106 507,106 507,101 507,96 " style="fill: rgb(44,147,2); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:1 Organism:Streptomyces flavotricini JNXV01 Coordinates:29 310
 Direction:+ Gen Id:fig|6666666.279332.peg.5411 Function hypothetical protein smash:none</title></polygon>
 	<polygon points="500,96 500,106 506,106 506,101 506,96 " style="fill: rgb(254,30,30); fill-opacity: 0.9741; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9741 Organism:Streptomyces flavotricini JNXV01 Coordinates:962 381
 Direction:- Gen Id:fig|6666666.279332.peg.5412 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
-	<polygon points="490,96 490,106 500,106 500,101 500,96 " style="fill: rgb(22,139,119); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="490,96 490,106 500,106 500,101 500,96 " style="fill: rgb(218,244,138); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:1 Organism:Streptomyces flavotricini JNXV01 Coordinates:2059 1013
 Direction:- Gen Id:fig|6666666.279332.peg.5413 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
 	<text style="font-family: Arial; font-size: 10; font-style: italic; text-anchor: middle" x="600" y="134">501966_1760 Streptomyces lavendulae subsp. lavendulae JOBU01</text>
@@ -203,13 +203,13 @@ Direction:+ Gen Id:fig|6666666.279437.peg.1757 Function Serine hydroxymethyltran
 	<polygon points="482,136 482,146 489,146 489,141 489,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:1 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:324318 325007
 Direction:+ Gen Id:fig|6666666.279437.peg.1758 Function hypothetical protein smash:none</title></polygon>
-	<polygon points="489,136 489,146 499,146 499,141 499,136 " style="fill: rgb(22,139,119); fill-opacity: 0.9529; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="489,136 489,146 499,146 499,141 499,136 " style="fill: rgb(218,244,138); fill-opacity: 0.9529; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9529 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:325004 326074
 Direction:+ Gen Id:fig|6666666.279437.peg.1759 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
 	<polygon points="500,136 500,146 504,146 504,141 504,136 " style="fill: rgb(254,30,30); fill-opacity: 0.9943; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9943 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:326155 326682
 Direction:+ Gen Id:fig|6666666.279437.peg.1760 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
-	<polygon points="516,136 516,146 505,146 505,141 505,136 " style="fill: rgb(23,210,8); fill-opacity: 0.9785; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="516,136 516,146 505,146 505,141 505,136 " style="fill: rgb(44,147,2); fill-opacity: 0.9785; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9785 Organism:Streptomyces lavendulae subsp. lavendulae JOBU01 Coordinates:327903 326758
 Direction:- Gen Id:fig|6666666.279437.peg.1761 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
 	<polygon points="527,136 527,146 516,146 516,141 516,136 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
@@ -264,13 +264,13 @@ Direction:+ Gen Id:fig|6666666.279359.peg.3241 Function Non-ribosomal peptide sy
 	<polygon points="529,176 529,186 518,186 518,181 518,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:1 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:78741 79931
 Direction:+ Gen Id:fig|6666666.279359.peg.3242 Function putative acyl-CoA dehydrogenase smash:none</title></polygon>
-	<polygon points="518,176 518,186 507,186 507,181 507,176 " style="fill: rgb(23,210,8); fill-opacity: 0.957; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="518,176 518,186 507,186 507,181 507,176 " style="fill: rgb(44,147,2); fill-opacity: 0.957; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.957 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:79928 81073
 Direction:+ Gen Id:fig|6666666.279359.peg.3243 Function Butyryl-CoA dehydrogenase (EC 1.3.8.1) smash:none</title></polygon>
 	<polygon points="500,176 500,186 505,186 505,181 505,176 " style="fill: rgb(254,30,30); fill-opacity: 0.96; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.96 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:81759 81232
 Direction:- Gen Id:fig|6666666.279359.peg.3244 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
-	<polygon points="490,176 490,186 500,186 500,181 500,176 " style="fill: rgb(22,139,119); fill-opacity: 0.9217; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="490,176 490,186 500,186 500,181 500,176 " style="fill: rgb(218,244,138); fill-opacity: 0.9217; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9217 Organism:Streptomyces sp. PCS3-D2 JDUZ01 Coordinates:82916 81810
 Direction:- Gen Id:fig|6666666.279359.peg.3245 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
 	<polygon points="483,176 483,186 490,186 490,181 490,176 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
@@ -325,13 +325,13 @@ Direction:+ Gen Id:fig|6666666.279425.peg.3629 Function Non-ribosomal peptide sy
 	<polygon points="527,216 527,226 516,226 516,221 516,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:1 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:38420 39610
 Direction:+ Gen Id:fig|6666666.279425.peg.3630 Function Acyl-CoA dehydrogenase, long-chain specific, mitochondrial precursor (EC 1.3.99.13) smash:none</title></polygon>
-	<polygon points="516,216 516,226 506,226 506,221 506,216 " style="fill: rgb(23,210,8); fill-opacity: 0.9462; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="516,216 516,226 506,226 506,221 506,216 " style="fill: rgb(44,147,2); fill-opacity: 0.9462; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9462 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:39625 40752
 Direction:+ Gen Id:fig|6666666.279425.peg.3631 Function Isovaleryl-CoA dehydrogenase (EC 1.3.8.4); Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
 	<polygon points="500,216 500,226 505,226 505,221 505,216 " style="fill: rgb(254,30,30); fill-opacity: 0.8591; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.8591 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:41287 40835
 Direction:- Gen Id:fig|6666666.279425.peg.3632 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
-	<polygon points="489,216 489,226 499,226 499,221 499,216 " style="fill: rgb(22,139,119); fill-opacity: 0.7706; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="489,216 489,226 499,226 499,221 499,216 " style="fill: rgb(218,244,138); fill-opacity: 0.7706; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.7706 Organism:Salinispora pacifica CNT003 AZWE01 Coordinates:42513 41413
 Direction:- Gen Id:fig|6666666.279425.peg.3633 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
 	<polygon points="483,216 483,226 489,226 489,221 489,216 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
@@ -365,13 +365,13 @@ Direction:+ Gen Id:fig|6666666.279350.peg.705 Function Non-ribosomal peptide syn
 	<polygon points="529,256 529,266 517,266 517,261 517,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:1 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:239654 240844
 Direction:+ Gen Id:fig|6666666.279350.peg.706 Function Acyl-CoA dehydrogenase, long-chain specific, mitochondrial precursor (EC 1.3.99.13) smash:none</title></polygon>
-	<polygon points="517,256 517,266 507,266 507,261 507,256 " style="fill: rgb(23,210,8); fill-opacity: 0.9355; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="517,256 517,266 507,266 507,261 507,256 " style="fill: rgb(44,147,2); fill-opacity: 0.9355; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9355 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:240841 241986
 Direction:+ Gen Id:fig|6666666.279350.peg.707 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
 	<polygon points="500,256 500,266 506,266 506,261 506,256 " style="fill: rgb(254,30,30); fill-opacity: 0.9275; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9275 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:242637 242056
 Direction:- Gen Id:fig|6666666.279350.peg.708 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
-	<polygon points="490,256 490,266 500,266 500,261 500,256 " style="fill: rgb(22,139,119); fill-opacity: 0.8985; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="490,256 490,266 500,266 500,261 500,256 " style="fill: rgb(218,244,138); fill-opacity: 0.8985; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.8985 Organism:Streptomyces sp. NRRL S-237 JODA01 Coordinates:243734 242664
 Direction:- Gen Id:fig|6666666.279350.peg.709 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
 	<polygon points="484,256 484,266 490,266 490,261 490,256 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
@@ -426,13 +426,13 @@ Direction:+ Gen Id:fig|6666666.279409.peg.4336 Function Serine hydroxymethyltran
 	<polygon points="483,296 483,306 489,306 489,301 489,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:1 Organism:Streptomyces virginiae LGUV01 Coordinates:72614 73318
 Direction:+ Gen Id:fig|6666666.279409.peg.4337 Function hypothetical protein smash:none</title></polygon>
-	<polygon points="489,296 489,306 499,306 499,301 499,296 " style="fill: rgb(22,139,119); fill-opacity: 0.8808; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="489,296 489,306 499,306 499,301 499,296 " style="fill: rgb(218,244,138); fill-opacity: 0.8808; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.8808 Organism:Streptomyces virginiae LGUV01 Coordinates:73315 74385
 Direction:+ Gen Id:fig|6666666.279409.peg.4338 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
 	<polygon points="500,296 500,306 505,306 505,301 505,296 " style="fill: rgb(254,30,30); fill-opacity: 0.9223; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9223 Organism:Streptomyces virginiae LGUV01 Coordinates:74412 74993
 Direction:+ Gen Id:fig|6666666.279409.peg.4339 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
-	<polygon points="516,296 516,306 506,306 506,301 506,296 " style="fill: rgb(23,210,8); fill-opacity: 0.9355; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="516,296 516,306 506,306 506,301 506,296 " style="fill: rgb(44,147,2); fill-opacity: 0.9355; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9355 Organism:Streptomyces virginiae LGUV01 Coordinates:76211 75060
 Direction:- Gen Id:fig|6666666.279409.peg.4340 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
 	<polygon points="528,296 528,306 516,306 516,301 516,296 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
@@ -475,13 +475,13 @@ Direction:+ Gen Id:fig|6666666.279404.peg.4067 Function Non-ribosomal peptide sy
 	<polygon points="529,336 529,346 518,346 518,341 518,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:1 Organism:Streptomyces yangpuensis LBMK01 Coordinates:833363 834553
 Direction:+ Gen Id:fig|6666666.279404.peg.4068 Function putative acyl-CoA dehydrogenase smash:none</title></polygon>
-	<polygon points="518,336 518,346 507,346 507,341 507,336 " style="fill: rgb(23,210,8); fill-opacity: 0.9677; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="518,336 518,346 507,346 507,341 507,336 " style="fill: rgb(44,147,2); fill-opacity: 0.9677; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9677 Organism:Streptomyces yangpuensis LBMK01 Coordinates:834550 835695
 Direction:+ Gen Id:fig|6666666.279404.peg.4069 Function Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.8.1) smash:none</title></polygon>
 	<polygon points="500,336 500,346 506,346 506,341 506,336 " style="fill: rgb(254,30,30); fill-opacity: 0.9534; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9534 Organism:Streptomyces yangpuensis LBMK01 Coordinates:836361 835780
 Direction:- Gen Id:fig|6666666.279404.peg.4070 Function GCN5-related N-acetyltransferase smash:none</title></polygon>
-	<polygon points="490,336 490,346 500,346 500,341 500,336 " style="fill: rgb(22,139,119); fill-opacity: 0.9449; stroke: black; stroke-opacity: 1; stroke-width: 1" >
+	<polygon points="490,336 490,346 500,346 500,341 500,336 " style="fill: rgb(218,244,138); fill-opacity: 0.9449; stroke: black; stroke-opacity: 1; stroke-width: 1" >
 <title>Identity:0.9449 Organism:Streptomyces yangpuensis LBMK01 Coordinates:837458 836388
 Direction:- Gen Id:fig|6666666.279404.peg.4071 Function Low-specificity L-threonine aldolase (EC 4.1.2.48) smash:none</title></polygon>
 	<polygon points="484,336 484,346 490,346 490,341 490,336 " style="fill: rgb(255,255,255); fill-opacity: 1; stroke: black; stroke-opacity: 1; stroke-width: 1" >

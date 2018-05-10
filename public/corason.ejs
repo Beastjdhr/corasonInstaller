@@ -5,48 +5,95 @@
             Welcome
         </title>
         <meta charset='utf8'>
-        <!-- <script src="corason.js"></script> -->
      <link rel="stylesheet" href="cUI.css">
-    </head>
-    <body>
-        <div id="root">
-            <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+           
             <script src="cUI.js"></script>
+
+    </head>
+    <body class="vertical-center">
+        <div id="root" class="container-fluid h-100">
+        
             <div class="container">
+                <div class="row mt-5">
                 <h1 id="title">CORASON</h1>
-                <i class="fa fa-heart-o" id="heart"></i>
-                <h2 id="subTitle">CORe Analysis of Syntethic Orthologs to prioritize Natural Product-Biosynthetic Gene Clusters</h2>
-                <button id="start">START</button>
+                </div>
+                <div class="row container mt-5">
+                    <div class="col-xl-12 col-lg-12 col-md-11">
+                        <h2 id="subTitle">CORe Analysis of Synthetic Orthologs to prioritize Natural Product-Biosynthetic Gene Clusters</h2>
+                    </div>
+                </div>
+                <div class="row container mt-5">
+                    <div class="col-xl-4 col-lg-4 col-md-8 col-sm-10 container">
+                    <button id="start">START</button>
+                    </div>
+                </div>
             </div>
+      
+
+                   
         </div>
-                <div class='pc'>
-                    <h1>Three parameters and you're all set</h1>
-                    <div class='nc'>
-                        <p>For CORASON to run, you need to provide three parameters to it:</p>
-                        <ul>
-                            <li>A directory containing your .faa and .txt genomes</li>
-                            <li>A file containing all the Rast IDs of your genomes</li>
-                            <li>A query file</li>
+        <div class="modal fade" tabindex="-1" role="dialog" id="paramsForm" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Three parameters and you're all set</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>For CORASON to run, you need to provide three parameters to this form:</p>
+                        <ul class='ml-5'>
+                            <li>A directory containing your .faa and .txt genomes.</li>
+                            <li>A file containing all the Rast IDs of your genomes.</li>
+                            <li>A query file.</li>
                         </ul>
                     </div>
-                    <!-- <form method="POST" action="run" enctype='multipart/form-data'> -->
-                        <div class='fc'>
-                            <label for="directory">Genomes Directory</label>
-                            <input type="text" name="directory">
-                        </div>
-                        <div class='fc'>
-                            <label for="ids">Rast IDs file</label>
-                            <input type="file" name="ids">
-                        </div>
-                        <div class='fc'>
-                                 <label for="query">Query file</label>
-                                 <input type="file" name="query">                                                
-                             </div>
-                                 <button id='run'>RUN </button>                        
+                    <div class="modal-body">
+                        <form  method="POST" action="run" enctype='multipart/form-data'>
+                            <div class="form-group">
+                                <label for="directory">Genomes Directory</label>
+                                <input type="text" name="directory">
+                            </div>
+                            <div class="form-group">
+                                <label for="ids">Rast IDs file</label>
+                                <input type="file" name="ids">
+                            </div>
+                            <div class="form-group">
+                                <label for="query">Query file</label>
+                                <input type="file" name="query">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success" id="run">RUN</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id='loading'>
-                <i class="fa fa-heart-o" id="lh"></i>
-                <p id="lt">CORASON is running, give it a while and don't close this page</p>
+
+        <div class="modal " tabindex="-1" role="dialog" id='loading'>
+            <div class="modal-dialog " role="document">
+                <div class="modal-content m">
+                    <div class="modal-header bg-black">
+                        <h5 class="modal-title text-light">Almost there...</h5>
+                    </div>
+                    <div class="modal-body bg-black">
+                        <div class="d-flex flex-column align-items-center align-content-center justify-content-center">
+                        <p class="text-light text-center">CORASON is running, give it a while and don't close this page.</p>
+                        <i class="fa fa-heart-o" id="lh"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

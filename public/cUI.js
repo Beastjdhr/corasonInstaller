@@ -20,27 +20,13 @@ $(document).ready(function () {
         'z-index': '2'
     });
     $("#start").mouseenter(function() {
-        $("#start").css({"background-color": 'rgba(90, 240, 10, 0.9)', 'cursor': 'pointer', 'border-color': '#fff'});
+        $("#start").css({"background-color": 'rgba(20, 240, 50, 0.9)', 'cursor': 'pointer', 'border-color': '#fff'});
     });
     $("#start").mouseleave(function() {
         $("#start").css({'background-color': 'rgba(197, 17, 98, 0.7)', 'border-color': 'rgba(200, 200, 200, 0.7)'})
     });
     $("#start").click(function () {
-        $('.pc').css({
-            'display': 'flex',
-            'flex-direction': 'column',
-            'align-items': 'center',
-            'align-content': 'center',
-            // 'justify'
-            'position': 'absolute',
-            'width': '60vw',
-            'height': '70vh',
-            'border-radius': '1rem',
-            'background-color': '#e0e0e0',
-            'margin-top': '-90vh',
-            'margin-left': '20vw',
-            'z-index': '3'
-        });
+       $('#paramsForm').modal('show');
     });
 
     $('#run').click(function() {
@@ -60,7 +46,7 @@ $(document).ready(function () {
             console.log(i);
             console.log($(this).val());
             if ($(this).val().length<1 && i !== 0) {
-                alert("All fileds are required");
+                alert("All fields are required");
                 return;
             }
         });
@@ -80,7 +66,7 @@ $(document).ready(function () {
     });
 
     function load() {   
-        $("#loading").css({"display": "flex"});
+        $("#loading").modal('show');
     }
     function error(msg) {
         $("#lt").css({ "display": "none" });

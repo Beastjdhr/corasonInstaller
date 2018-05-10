@@ -1,0 +1,259 @@
+LOCUS       Unknown                    7 bp    dna     linear   UNK 
+ACCESSION   unknown
+SOURCE      501861
+  ORGANISM  501861
+            .
+FEATURES             Location/Qualifiers
+     CDS             complement(962..381)
+                     /contig="JNXV01001027.1"
+                     /organism="homo sapiens"
+                     /product="GCN5-related N-acetyltransferase"
+                     /protein_id="501861_5412"
+                     /translation="MSLEVRPATADLWDDVRKVLQPKPSAHTCWCMAWRLSTGDYGRM
+                     TAQERGEHLRTLTEKADPPPGVLGFLDGEVAGWCNVAPRRQLDRLTSSKTITPVDDVP
+                     VWSVTCFVVRKEFRGKGVASGLLEGAVEHARENGAPAVEGYPVDPEGGRVNPTLAYVG
+                     TMDMFERAGFRRIQRTEAKSDKRHRWIVRRDLV"
+     CDS             complement(2059..1013)
+                     /contig="JNXV01001027.1"
+                     /organism="homo sapiens"
+                     /product="Low-specificity L-threonine aldolase (EC
+                     4.1.2.48)"
+                     /protein_id="501861_5413"
+                     /translation="MTTVGCGVADLRSDTVTRPGPGMRAAMAGAEVGDDLFGEDPTVR
+                     ALEERVAGLFGFPAALFTPSGVMANQIALQLLVAPGEELVCDAEAHVLAHEEASPARY
+                     GGIQTRTVTAERGVVTPELLAGVLRRGNAYTLGTRAVEVEQTHTRAGGTVHPLGTLRA
+                     VRELTSGAGVAVHMDGARIWNAMAATGTQAARYGETADSLSVCLSKGLGAPVGSVLLL
+                     RSEHLPRARKLRHGLGGGMRQSGILAAAGLYALDHHVERIAEDHENAALLAAGLRDAG
+                     FAVRPPETNIVLVRVPGADEVVVRAAQEGVLVTAPDPDTVRLVTHLDAGRKACRRAVE
+                     VLTAVMADVVAAGA"
+     CDS             29..310
+                     /contig="JNXV01001027.1"
+                     /organism="homo sapiens"
+                     /product="hypothetical protein"
+                     /protein_id="501861_5411"
+                     /translation="MAGLLARLDAVRWAVGDAARDLDEGRLTPGEAAGLIALTAETTL
+                     DVTRDAVHLHGASGLVRDGLVAGCYRRAAWEALRCGRPAQLWDIAAHTP"
+     CDS             15..2084
+                     /contig="JNXV01001028.1"
+                     /organism="homo sapiens"
+                     /product="FIG01133396: hypothetical protein"
+                     /protein_id="501861_5414"
+                     /translation="MPGRCPDPYPPINSDGVLRGRDNGVNIFAGGDFRVRGRASEAEG
+                     RLVVLGGFDQDKAAGGDSRYNVGIVGAGSLVPPPDGADFLTTGGGVTVAQGERLLAEG
+                     GVVRHAGPLTGDVRGTRVQDPAAVAPYAGLRERLSAASQCYARVGGQPRPATGTVANR
+                     GYETLFTGDGTSALQIFNVDADMVGNGGGMQGIRFDRIPAGATILVNVLGADRTINTY
+                     SGGLQDTDPLNAHRERLLWNFPDATTVRLTGGGQFQGSFLMGQQASETTVTLPGINGR
+                     FFTAGSVTHGSETTGGGGQEFHAYPFNGDLPDCAGPAPVTGSVSVLKRDAATGAALAG
+                     ARFELWRETNGTAGLQSTGPDADTRVTECTTPATGLCETTTVLGTYYWRETQAPPGYE
+                     LPPQPVGTLTLTAENAQAGVRYEADNRRGPEPPDSARVVLRKTDAATGLPLAGAEFEL
+                     WRESNGTAGLQTSAPGGDSRLDGACVTAADGTCTVELPVGQTYYWRETAVPAGYEPPA
+                     DPVTRFDLTEGDVSGGIAVSVPNTRSERYEGAIRILKQDAKTGRPLRGAVFEVWQETN
+                     GTAGLQTRGINADRRAADGCATDRGGVCDFGPLPEGSYYLVETAVPEGYALPADRVTG
+                     PLRLDAATPDGRLVVTLRNERDRHGKGKGDHGKDHGKGDHGKGKGGHPKHPEDARYPK
+                     DAKGPRA"
+     CDS             complement(1760..1404)
+                     /contig="JNXV01001026.1"
+                     /organism="homo sapiens"
+                     /product="FIG01121108: hypothetical protein"
+                     /protein_id="501861_5410"
+                     /translation="MPLAASRAELFGDLVRDSVERLERRWPQLSDVEFLVGDVPGPPG
+                     GPDGGWNDEAVPLGAVSEPRQGRPARIVVFRRPVEIRTKTRDEKAVLVHEIVVEQVAE
+                     LLGLTPETVDPRYGQD"
+     CDS             complement(1435..5)
+                     /contig="JNXV01001029.1"
+                     /organism="homo sapiens"
+                     /product="Cytosine/purine/uracil/thiamine/allantoin
+                     permease family protein"
+                     /protein_id="501861_5415"
+                     /translation="MPIEQRGVDTIPEEERTSGPRDLISILLGSNLCLGVIVFGWLPP
+                     SFGLGLWPSVTAIVTGTLVGIAFTAPLALVSLRTATNLSTSSGAQFGVRGRLVGSVVG
+                     LLLSLGYTALTLWIGGDVMVGTLARLTGLPDTGLSRALMYGLLAACTVVAAVFGYRLL
+                     LRMSKVLSVAMVVLLAAGVAAYAPDFTTAAPPETPYLLGSFWPTWLLAAVAAGLSGPV
+                     AFITLLGDYTRYISPRRHGSRKVLWATAFGLLIGLLVPQLFGTYTALAARAGLDYAGP
+                     LVEAAPLWYLVPLLAAAAAGSVGNAGLMLYSMGLDLDAIVPRATRTTATVIAAAVATA
+                     FVFFGSFEWDVQSAMTSFVLLLTAIGTPWAVITLIGHVRCRGVYDADALQVFNRRSVG
+                     GVYWYRSGWNVAATASWAVGAAVGLLAVTTPFYEGPLLALTGGVDCSFVLSGLTGGLV
+                     YAALTVRRAAAPAPAPAATAEEPANA"
+     CDS             26..1378
+                     /contig="JNXV01001026.1"
+                     /organism="homo sapiens"
+                     /product="FIG083739: Putative secreted protein"
+                     /protein_id="501861_5409"
+                     /translation="MPVERSLLVCPGPSSSDVAETTYTSFTPGAPAGEGKGSARLLGA
+                     TKDAKPVLEPKEAGKPVGATANGADAPALTGSADGVLAPGWTAQLTTKVPVGRARGVL
+                     GVGCTAPGTDFWFPAVSTAKGREDYLHLTNPDDAAAVVDISLFGPDGMAKLDAGTGEN
+                     IRVDPRSTKTVLLSSLLPATQLADATAHVTTRAGRVGASVQVGEEGVGADWLPASTDP
+                     TGSLVLPGIPADAASVRLVAFVPGEEDADLKVRLAGPGGSISPAGSEQLHVKAGMTAV
+                     TDLKDLTRGEPGSLVLTPTDAKKAAPLVAAVRVVRGSGAKQELGFIPATPPVGTRATV
+                     ADNRPEENTTLLSLTAPSAEAKVKVTASPGTGGGEPASQEVTVKAGTTQTLTLAPAGG
+                     KGSYALTVETLSGGPVHAARTLSLPNDGITMFTVQGLSDDHSTVSVPKATQDLTVLTR
+                     "
+     CDS             complement(2100..118)
+                     /contig="JNXV01001030.1"
+                     /organism="homo sapiens"
+                     /product="FOG: TPR repeat"
+                     /protein_id="501861_5416"
+                     /translation="MRHVERRAAETAHRLGRQPGVTLPSPYRGFADMYPLPVGHGLRE
+                     VLADAQRSLAHGSVETARLAALDVLQVARSAEDLAQQTAAHRLLARTAARLGDWPEQY
+                     SHLISVVASVETARDRVADADLRIDLDLARPCAELVALVVDRRVPGVPLTTAVDLAER
+                     GRSRLMLQTIGGTHDSELPSALRELQQQERNLLRSVRSDDRIGTRGPYGFAVLNPYWG
+                     QVERAKLERIWRAMEATGAAGAAYVSGRRGAPAQYAELRDMLRPGEVLCEFVSVGDRT
+                     VVLLVRAERAEPVVVDLRLDARALTPERPDPGRPAPPWTAGLAPLARALAEHTRPGEV
+                     MWLVPDGPLHDLPLHAVPVEGAPWGERNPMSCTPSASLMRYRLGPAVRSETRTALVLA
+                     DSRGDLPHARAEARAIRAVLPAAEVHTGAAAGLDTLRERLSQARYDVLHLACHCRLDR
+                     ERPSRSGLLLAGGELTAEDLPTVRLDVRLVVLSGCDTGAQEQRAGNELMGLTREFLHA
+                     GARSVLVTRWQVDDISSALLMADFYRRMKDGSPLAAALSAARRRLRTMSLDDALEHCE
+                     RERRGERLRAADPESVRSLSRDVARLRLRAGDVGGALAEIDALLAETPDGSPHRRPLL
+                     VLRNRARYAPARREQHLPAFDHPYYWAPFTLAGDWR"
+     CDS             complement(2231..1491)
+                     /contig="JNXV01001025.1"
+                     /organism="homo sapiens"
+                     /product="endonuclease/exonuclease/phosphatase family"
+                     /protein_id="501861_5408"
+                     /translation="MGAEHAAFAGLARRVKAWARARGLDSAPFGGLPGLAWSVLAART
+                     VQEAGALPPDALLREFFGRWAAWDWREPVALTSSDHGPHPHPHPHPVTILTPSEPVRS
+                     CTAQVTSGLRDLLVQELYGAWELLESGVGAEALAAAAPAPHRRHAAWAVVSVRAAEVE
+                     FEEVRGRVRGRLRALLGALEEAGVTDAHAWPRPFESEPGLARYAIGLGAVPPDAARLA
+                     VAAGPWRAGLRGVEVAWAAGGEVPDLGA"
+     CDS             60..2081
+                     /contig="JNXV01001031.1"
+                     /organism="homo sapiens"
+                     /product="malonate transporter"
+                     /protein_id="501861_5417"
+                     /translation="MAEGGVRAVGLDRYSRRDQGAAHLRKGAAAGADQDGHVLPGHAV
+                     LQVGTAQDVGDVVQLGAGRRVGEDLHPAALPRGPQVPVRADGRRGEAGQRHAGREEAG
+                     RPHDGLAGAAAHGQGPDLRAWEGGLEVQDVVDVGAAEGVDRLVGVAEGDQCAAAPGQG
+                     PQEPQLRGVGVLVLVHEDRVVCGGQRRRALGEEDRAVQELGVVQGALDVEDVQVLGEE
+                     GRRRLPVGAADAVREVGEGLRAEAQLAGAGEDGPDLVGEPARGQRGPQVVRPADGADP
+                     ALALQQGADHHVLLRAGQQPQRVGEEIGVLVGADQAVAEGVEGGGLRSARAAQPEGGP
+                     VAQLDGRLAAEGEDEDPGGLRARLHAGGDGLDQRGRLPGARPGQDQEWSAGVVNHRAL
+                     RCVQHRRIHPFRPGAHEAVRAGGPRTPPFGAVGGRGDHVRCRSWWVCVVWRCCRAGSR
+                     GSRRGNATATGAARAVPPGTPDGRSPGRPAARPGAAWPKLSGVSLVAPAAPPRTPSHA
+                     PSRVLSGVLSGVPSCVLSRVRVPVPAGPGHVQARLAAGRQAQRRGLPPVVLQGPRLVT
+                     GQRHAVRPHHTPPGHGSPVEGHDTPDLAWSSLAEPFGDVPVCHHPAGRNTLDDLQYAL
+                     RVRGQLLTHSAHGAVRRTPTGGSCGSGPARTLMPRRPLGPCHHLPGGDW"
+     CDS             500..1450
+                     /contig="JNXV01001025.1"
+                     /organism="homo sapiens"
+                     /product="Bifunctional protein: zinc-containing alcohol
+                     dehydrogenase; quinone oxidoreductase ( NADPH:quinone
+                     reductase) (EC 1.1.1.-); Similar to arginate lyase"
+                     /protein_id="501861_5407"
+                     /translation="MSESDRGGQETMRAMAYETYGGTEVLSEARLPLPKFGPGEVLVR
+                     VRCAAVNPVDWKIMAGGLDPLMDVVFPVVPGWDVAGTVEKVGIDVPEYAEGDEVVAYA
+                     RKDYVHGGTFAEFVTVPVRALARKPASLSWAEAAGLPLAGLTAYQLLTRLGTGKDDTV
+                     LIHGAAGGVGSFGVQIARALGARVIGTASPRNHDRVRELGAEPVEYGDGLAERVRALV
+                     PDGPTVVADFVGGVGGVTREVLHDDGRHASIADPSVLGSGGEWMWVRPVGSDLAELGR
+                     LADSGLLKVPVAETFPLAELAAAFELSQGGHTAGKIIIEI"
+     CDS             41..265
+                     /contig="JNXV01001032.1"
+                     /organism="homo sapiens"
+                     /product="hypothetical protein"
+                     /protein_id="501861_5418"
+                     /translation="MLATVRDLLGRPGTGLGDNFTDAGGTSIIAARLLETVERETGVR
+                     LRAPELLRSTDLRAFAALLDQRRTPQTAGA"
+     CDS             1..387
+                     /contig="JNXV01001025.1"
+                     /organism="homo sapiens"
+                     /product="hypothetical protein"
+                     /protein_id="501861_5406"
+                     /translation="MLFGAATHDVGKAVRTAELSGPGSAHEPAGRELLLAHGVPEHLA
+                     RFAATHAAWHRDGVSVEELLVSTADKVWKGKRVPDLEDLLVDRLAAATGAERWAAYLD
+                     LDGVLGRIAEGADGRLAFQAAFPVHP"
+     CDS             267..2126
+                     /contig="JNXV01001032.1"
+                     /organism="homo sapiens"
+                     /product="Non-ribosomal peptide synthetase"
+                     /protein_id="501861_5419"
+                     /translation="MTTTIAMPADPKPAGPMCVDAGEATALPALVARHAALTPDALAV
+                     VDGDTTLTYGRLLQAGHALAARLREHDVTRGDRVALLTARSSRTVVAQLGLWLAGAVC
+                     VPLDPAQPRPRTEAMIADADVTLTVGDAKLLEAAALRGPVLALPEEPLTSGRPADESD
+                     PDSPAFIMFTSGSTGRPKGVLVPHRAVAELVTAPDYVTLTGRDRVLFHSPMTFDASTF
+                     EVWGALANGAAVVVCTEQRPTLEDLARHVERHGVTVAFFTTALFHQLAARRSRVFSQL
+                     RSVVVGGEAMAAAPAREVLTAFPWLELVNGYGPTETTTFATAHRVTERDCAGPIPIGR
+                     PIRGATAHVLDADGHPVADGDRGELWIGGSRLAHGYTGLPALTAERFVEHPAAAGRRL
+                     YRTGDVVSLRPDGVLQFHGRNDDQVKVRGFRIEPAEVEHALREQAHVDDAAVTVDGAG
+                     TPEARLVAFVVAAPGPVPHGAALRERLTAVLPAHLVPDAVDVLERLPLTPAGKVDRRA
+                     LAAHAQAAGSGHADEPAPPMTPLEQAVAEVWSRALGTEVTRPDTEFLLIGGHSLLALA
+                     VTEDLREELGVEMSLADFFAAPTVAAQAALVETALLAVHADLHPDTPEHSDVH"
+     CDS             complement(2245..1241)
+                     /contig="JNXV01001024.1"
+                     /organism="homo sapiens"
+                     /product="FIG01121717: hypothetical protein"
+                     /protein_id="501861_5405"
+                     /translation="MDDRLGRPAALRVRARRAVRDMMMSETSWRYGLRLALCVGLAQS
+                     LVSVVEIERSYWVALTVTFVLKPDFGSVFSRALLRALGTAIGLVTAAAVLAEVPRGWW
+                     DVPVMMVLGALIPVFSAKGYAFQTAAITPVILLLSDLLNHQGFDLIRPRLLDSLIGCA
+                     ITLIAGYLLWPESWHTRIGDRLADTVDDAARYVERAFAPTSDDAARAAARTGRLQARR
+                     RLYRDLSGVRSEFQRALTEPPPTGTRAAAWWPLVVAVERIVDAVTAARVRVNHGAPPP
+                     AAEEVAGIARQLRQLADRVRSSTIPVRGQDEPAGEESGVLAPVHQELAAARAITQPER
+                     "
+     CDS             complement(1629..142)
+                     /contig="JNXV01001033.1"
+                     /organism="homo sapiens"
+                     /product="L-fuco-beta-pyranose dehydrogenase (EC
+                     1.1.1.122)"
+                     /protein_id="501861_5420"
+                     /translation="MTVTEDSHDQAQAYGPGIDPERLALCLDVLAELDGIDVDHPDAI
+                     AVRRATAGVYRTVKQRRRQERRAAKTANDKAVTEATATGSAERIDDETEGILPSSVTE
+                     AGRIAGILQRPRSCYVCKTRYVEVDYFYHQLCPGCAVENRAKREARADLAGKRALLTG
+                     GRAKIGMYIALRLLRDGAHTTITTRFPKDAIRRFKAMEDSADWMHRLEVVGIDLRDPA
+                     QAVALADQVAAAGPLDILINNATQTVRRLPTAYAALVEGESAPLPAGELPAHHVIGAF
+                     NSGAVDGLAALPVGVSGLEAQKVADLALVAGNASLERHLAGTAIDAGGLLPDVVDSNT
+                     WVQTIDQISPVELLETQLCNYTSPFILISALRPAMAEAARKAAKGRAYVVNVSAMEGV
+                     FSRGYKGAGHPNTNAAKAAMNMVTRTSGQEMFQADGILMTSVDTGWITDERPHYDKLR
+                     LAEEGFHAPLDLVDGAARVYDPIVRGEAGEDLYGVFLKDYAPANW"
+     CDS             complement(1203..502)
+                     /contig="JNXV01001024.1"
+                     /organism="homo sapiens"
+                     /product="putative lipoprotein"
+                     /protein_id="501861_5404"
+                     /translation="MYRAPALLVLVLALAGCADVEGLHNEGDLGTVHAPQSLWKDIRP
+                     DPPDEAQKPGTAAVVPGLPKVPDGRLRGVDAVGVVRADVTSAAKQDGGTGRLVDPRAV
+                     RRLALCTQAVDKGPDCPVRPAVFHDLTGNGREELITALDLDGRLSELRVYTVQDDGRI
+                     ARILSRRAVLEGVEVAAEHLAVREPTSNPAYFAVSDYVWDPKAGIMNLDQLTLDDCGS
+                     LTGVPLGPDARRCTR"
+     CDS             1645..1890
+                     /contig="JNXV01001033.1"
+                     /organism="homo sapiens"
+                     /product="hypothetical protein"
+                     /protein_id="501861_5421"
+                     /translation="MITRPHPPAAEVLKRETVRIPHAPSQTRGRTAPASRTGRHRTDR
+                     GGDGGERTGWRCAGGTTRCVLPYYVRSMTRDHLWAEE"
+     CDS             405..1703
+                     /contig="JNXV01001023.1"
+                     /organism="homo sapiens"
+                     /product="Phenylacetate-coenzyme A ligase"
+                     /protein_id="501861_5403"
+                     /translation="MSAQQLSDLIRFARHNSPYYRDLYASLPPDAGRLTDLPVVDQVS
+                     FWAANAPHDSRVLTGPLSEATVYKTGGTTGSPKFSVYTRDEWRTFVTAFGQGLVDTGL
+                     RPGHRVADLFYAGELYASFLFILDSLAHAPVDNVRLPIGGGAPLESTIPTLRDLAAQV
+                     LAGTPTTLCRLAEQVLASGVRLGSVELLLFGGEALFEDQRRLLATAFPGAEARSVGYA
+                     SVDAGLLGRPVPGADARVHRAFTPYSVVEILDDSTDEPITEPGRPGRVVVTSLFRRLM
+                     PIIRYPAGDRAEWTGTGPGHFRILGRAEEGVRVGPVSLYTQDAQDAVASADTAGQVVG
+                     MQLVVRRWEGRDGLVLRLATAPGDERAGELTGGPAAERRAALARAVVAELETVRPLYP
+                     DSVRAGFVHPLSVEWARHRDLAVNPRTGKLVRVLDERPTA"
+     CDS             74..1117
+                     /contig="JNXV01001035.1"
+                     /organism="homo sapiens"
+                     /product="Uncharacterized protein Rv1841c/MT1889"
+                     /protein_id="501861_5422"
+                     /translation="MNALQLLFALLLVLANGFFVGAEFALVSVRRSQIEPLAAESKRA
+                     RQVLHGLENLPRMMAAAQFGITVCSLTLGAVAEPTVARLLEPVFHAVHVPQGLIHPLG
+                     YALALAAVVFLHLVIGEMVPKNLAMAAPEKTALWFSPGLVAFARLCGPVTSALGACAK
+                     LVLKLFKVEPKDEVEAAYTSTQLGRLLKDSRQAGLLEPVEQERLEDALELGSRPVTDV
+                     LLDRDRLVTVGPAVTPRQIEQLTVRTGYSRFPVRSDSGAFMGYLHVKDVLDLEDRERA
+                     VPQRVWRRMTTLCATVPLDDALGVMRRDATHLAQVADQSGRVLGLVTLEDVLEMLVGE
+                     VRDPAHRIPAGRT"
+     CDS             complement(2265..1648)
+                     /contig="JNXV01001022.1"
+                     /organism="homo sapiens"
+                     /product="hypothetical protein"
+                     /protein_id="501861_5402"
+                     /translation="MALAVPPLAAALAYGVAWKSAYGTLGSWGFFLAGLLLPLVLLGW
+                     HAACAARRGASLIAVSALPAGLGAILALASVGHSVLEDRGVEISCVVLNVTEHTETDS
+                     SMDAQGHWTSTTRTSYDHRLDCPAGGPEHLDTPSRLAKEGESLAVLHDPQGKVSPRAA
+                     GDVHGWGMRTAAQVAVGTAVLMGLAGGIREAYEKRRWRPRRPAGR"
+ORIGIN      
+        1 aaaaaaa
+//

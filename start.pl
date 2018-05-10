@@ -12,8 +12,12 @@ if (length($sudo) < 2) {
 print "This script needs your user password in order to install the required modules
 if you agree, type your password and press ENTER. Else, type CTRL+C\n";
 $pwd= <STDIN>;
-# print $pwd;
+print $pwd;
 chomp $pwd;
+
+if ($pwd=~ m/\//) {
+	$pwd=~ s/\//\\\//g;
+}
 # wirting password to userData.txt
 my $writePassword= `perl -pi -e 's/userPassword= <!<>!>/userPassword= <!<$pwd>!>/g' userData.txt`;
 }
@@ -27,18 +31,20 @@ else {
 my $checkNode= `echo $pwd | sudo -S dpkg -l | grep nodejs`;
 
 if (length($checkNode) < 3) {
-    my $update=`echo $pwd | sudo -S apt-get update`;
+    my $update=`echo $pwd | sudo -S apt-get -y update`;
     print "-------------------------_$update-----------------------";
-    if ($update=~ m/[error]/) {
-        die "There seems to be a problem \n $update\n";
-    }
+#    if ($update=~ m/[error]/) {
+ #       die "There seems to be a problem \n $update\n";
+  #  }
 
-    my $installNodeJS= `echo $pwd | sudo -S apt-get install nodejs`;
+	
+    my $installNodeJS= `echo $pwd | curl -sL https://deb.nodesource.com/setup_8.x | sudo -E -S bash -
+sudo apt-get install -y nodejs`;
     print "//////////////////////$installNodeJS//////////////////////";
     if ($installNodeJS=~ m/error/) {
         die "ERROR \n $installNodeJS";
     }
-    my $installNPM= `echo $pwd | sudo -S apt-get install npm`;
+    my $installNPM= `echo $pwd | sudo -S apt-get -y install npm`;
     print "<<<<<<<<<<<<<<<<<<<<<$installNPM>>>>>>>>>>>>>>>>>>>>>>>>>";
     if ($installNPM=~ m/error/) {
         die "ERROR \n $installNPM\n";
@@ -57,7 +63,7 @@ if ($check8080=~ /nodejs/g) {
     `echo $pwd | sudo -S kill -9 $PID`;
     print "killed process $PID\n"
 }
-print "About to start server\n";
+print "DO NOT CLOSE THIS TERMINAL\n";
 my $sc= `npm start`;
 print $sc;
 

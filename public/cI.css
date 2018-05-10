@@ -12,7 +12,7 @@ body {
     height: 100vh;
     width: 100vw;
 }
-.main {
+/* .main {
     display: flex;
     align-content: center;
     align-items: center;
@@ -36,20 +36,32 @@ body {
     justify-content: center;
     align-content: center;
     align-items: center;
+} */
+  .bg-black {
+    background-color: #111;
+  }
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
 }
+
 .tc {
     background-color: #00E676;
 }
-#loadingSection {
+/* #loadingSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
     align-content: center;
-}
+} */
 #msg {
     color: #35e16f;
     font-size: 2rem;
-    margin-left: 9vw;
+    /* margin-left: 9vw; */
 }
 
 .initSuccess {
@@ -70,7 +82,7 @@ body {
   height: 4em;
 }
 
-#output {
+/* #output {
     position: absolute;
     margin-top: 35vh;
     width: 40vw;
@@ -85,11 +97,21 @@ body {
     border: 2px solid #333;
     overflow-y: scroll;
 
+} */
+
+.h-85 {
+  height: 85%;
 }
+
+.h-55 { 
+  height: 55%;
+}
+
 .loader {
+  margin-left: 20%;
   color: #35e16f;
   text-indent: -9999em;
-  margin: 88px auto;
+  margin: 0 auto;
   position: relative;
   font-size: 11px;
   -webkit-transform: translateZ(0);
@@ -117,11 +139,11 @@ body {
   80%,
   100% {
     box-shadow: 0 0;
-    height: 4em;
+    height: 2.5em;
   }
   40% {
     box-shadow: 0 -2em;
-    height: 5em;
+    height: 3.5em;
   }
 }
 @keyframes load1 {
@@ -129,10 +151,10 @@ body {
   80%,
   100% {
     box-shadow: 0 0;
-    height: 4em;
+    height: 2.5em;
   }
   40% {
     box-shadow: 0 -2em;
-    height: 5em;
+    height: 3.5em;
   }
 }
