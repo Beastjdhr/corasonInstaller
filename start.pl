@@ -26,6 +26,10 @@ else {
     $pwd= $sudo;
 }
 
+#checking OS
+my $OS= `uname -s`;
+
+if ($OS =~ /Linux/) {
 # checking if nodeJS is installed
 # print "$sudo\n";
 my $checkNode= `echo $pwd | sudo -S dpkg -l | grep nodejs`;
@@ -66,5 +70,39 @@ if ($check8080=~ /nodejs/g) {
 print "DO NOT CLOSE THIS TERMINAL\n";
 my $sc= `npm start`;
 print $sc;
+
+}
+elsif ($OS=~ /Darwin/) {
+    print "OS found\n";
+    #checking node 
+    my $isInstalled= `npm`;
+    if ($isInstalled=~ /command not found/ig) {
+        #checking brew
+        my $isBrewInstalled= `brew`;
+        if ($isBrewInstalled=~ /command not found/ig) {
+            `echo $pwd | sudo -S -y /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`;
+            `echo $pwd | sudo -S -y brew install node`;
+
+        }
+    }
+    # my $nodejsInstalled= `nodejs`;
+    # if ($nodejsInstalled=~ /command not found/gi || $nodejsInstalled=~ /no such file or directory/gi) {
+    #     `npm install nodejs`;
+    # }
+    my $check8080= `lsof -i :8080`;
+    if ($check8080=~ /nodejs/g) {
+    # getting process's PID;
+    $check8080=~ m/nodejs\s\s(\d+)\s/;
+    my $PID= $1;
+    print "About to kill process $PID\n";
+    # killing nodejs process;
+    `echo $pwd | sudo -S kill -9 $PID`;
+    print "killed process $PID\n"
+}
+    print "DO NOT CLOSE THIS TERMINAL\n";
+    my $sc= `npm start`;
+    print $sc;
+}
+
 
 

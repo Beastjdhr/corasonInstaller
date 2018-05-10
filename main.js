@@ -55,7 +55,7 @@ app.get('/checkOS', function(req, res) {
         console.log(so);
         if (se) {res.json({se: se})}
         if (so.match(/Linux/g)) {res.json({so:so, code: 1})}
-        if (so.match(/Darwin/g)) {res.json({code:2})}
+        if (so.match(/Darwin/g)) {res.json({code:2, so: so})}
         // if (err) {throw err}
     });
 });
@@ -87,6 +87,18 @@ app.post('/checkDocker', function(req, res) {
             else if (se) res.json({code: 4, error: se});
         });
     }
+    else if (req.body.code == 2) {
+        var check= bash('docker', function(err, so, se) {
+            if (se.match(/command not found/gi)) {
+                res.json({code: 3});
+                return;
+            }
+            else {
+                res.json({code: 1});
+                return;
+            }
+        })
+    }
 
 });
 
@@ -113,6 +125,31 @@ app.get('/aptinstall', function(req, res) {
         });
     });
 });
+
+app.get('/brewinstall', function (req, res) {
+    var getSudo = bash('grep userPassword userData.txt', function (err, so, se) {
+        // parsing user password
+        var start = so.indexOf('<!<');
+        sudo = so.slice(start + 3, -5);
+        console.log(sudo);
+        var installCommand = 'echo ' + sudo + ' | sudo -S brew install -y docker';
+        console.log(installCommand);
+        var aptinstall = bash(installCommand, function (err, so, se) {
+            console.log(so);
+            console.log(se);
+            var confirm = bash('docker', function (err, so, se) {
+                console.log('confirming Docker is ready to run...');
+                if (!se.match(/not found/)) {
+                    console.log('SENDING CODE 1 TO CLIENT');
+                    res.json({ code: 1 });
+                }
+                // });
+            });
+            console.log(so, se);
+        });
+    });
+});
+
 
 app.post('aptGetInstall', function(req, res) {	
     var getSudo = bash('grep userPassword userData.txt', function (err, so, se) {
@@ -168,6 +205,43 @@ app.post('/imageLookup', function(req, res) {
             }
         });
     }
+    else if (req.body.code == 2) {
+        var imgs_command = `echo ` + sudo + ' | sudo -S docker images';
+        var checkImgs = bash(imgs_command, function (err, so, se) {
+            if (!so.match(/nselem\/evodivmet/)) {
+                console.log(404);
+                res.json({ code: 0 });
+                return;
+            }
+            else if (se.match(/cannot connect to the Docker Daemon/gi))  {
+                var startDocker= bash('open /Applications/Docker.app', function(e, so, se) {
+                    var imgs_command = `echo ` + sudo + ' | sudo -S docker images';
+                    var checkImgs = bash(imgs_command, function (err, so, se) {
+                        if (!so.match(/nselem\/evodivmet/)) {
+                            console.log(404);
+                            res.json({ code: 0 });
+                                }
+                        else {
+                            console.log(900);
+                            var update = bash('perl update.pl evodivmet', function (err, so, se) {
+                                console.log(so);
+                            });
+                            res.json({ code: 1 });
+                        }            
+                    })
+                })
+            }
+            
+            else {
+                console.log(900);
+                var update = bash('perl update.pl evodivmet', function (err, so, se) {
+                    console.log(so);
+                });
+                res.json({ code: 1 });
+            }
+        });
+    }
+
 });
 
 app.get('/corason', function(req, res) {
@@ -181,13 +255,12 @@ app.post('/installCORASON', function(req, res) {
         var installCORASON= bash(install_command, function(err, so, se) {
             console.log("SO: " + so);
             console.log("SE: " + se);
-            if (se.length < 1) {
+         
                 res.json({code: 1});
                 var update= bash('perl update.pl evodivmet');
-            }
-            else if (se.length > 3) {
-                res.json({code: 0, se: se});    
-            }
+            
+                // res.json({code: 0, se: se});    
+            
         });
     }
 });
@@ -217,10 +290,23 @@ app.post('/run', function(req, res) {
 
 
 app.listen(8080, function () {
-    var launch = bash('firefox 127.0.0.1:8080', function (err, stdout, stderr) {
-         if (err) throw err;
-         console.log(stdout);
-         console.log(stderr);
-     });
+    // var checkOS= bash('uname -a', function(err, so, se) {
+    //     if (so.match(/Linux/)) {
+    //         var launch = bash('firefox 127.0.0.1:8080', function (err, stdout, stderr) {
+    //             if (err) throw err;
+    //             console.log(stdout);
+    //             console.log(stderr);
+    //         });
+
+    //     }
+    //     else if (so.match(/Darwin/)) {
+    //         var launch = bash('open -a Safari http://127.0.0.1:8080', function (err, stdout, stderr) {
+    //             if (err) throw err;
+    //             console.log(stdout);
+    //             console.log(stderr);
+    //         });
+
+    //     }
+    // })
     console.log('SERVER STARTED ON PORT 8080');
 });

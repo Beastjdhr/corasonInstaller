@@ -15,4 +15,10 @@ my $dir= $ARGV[0];
     </body>
 </html>";
 close VIEWER;
+my $OS= `uname -a`;
+if ($OS=~ /Linux/) {
 `firefox $dir.html`;
+}
+elsif ($OS=~ /Darwin/) {
+    `open -a Safari $dir.html`;
+}
